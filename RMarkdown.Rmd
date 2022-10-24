@@ -16,6 +16,7 @@ When you click the **Knit** button a document will be generated that includes bo
 
 ```{r enfermedades}
 summary(enfermedades)
+plot(enfermedades)
 ```
 
 ## Including Plots
@@ -23,6 +24,7 @@ summary(enfermedades)
 You can also embed plots, for example:
 
 ```{r sedentarismo}
+summary(sedentarismo)
 plot(sedentarismo)
 ```
 
