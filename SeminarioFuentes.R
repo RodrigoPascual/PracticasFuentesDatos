@@ -6,24 +6,16 @@ View(Sedentarismo)
 
 library("dplyr")
 #vamos a hacer un join entre nuestras dos tablas por comunidad autonoma
+#https://thomasadventure.blog/es/posts/r-fusionando-tablas-datos/
 
 #
-combinacion <- inner_join(enfermedades,sedentarismo, by= "Comunidad autónoma")
+innerunion <- inner_join(enfermedades,sedentarismo, by= "Comunidad autónoma")
 #
 unionIzquierda <- left_join(enfermedades,sedentarismo, by= "Comunidad autónoma")
 #
 unionDerecha <- right_join(enfermedades,sedentarismo, by= "Comunidad autónoma")
 #
 unionTotal <- full_join(enfermedades,sedentarismo, by= "Comunidad autónoma")
-#
-unionPracial <- semi_join(enfermedades,sedentarismo, by= "Comunidad autónoma")
-#
-antiUnion <- anti_join(enfermedades,sedentarismo, by= "Comunidad autónoma")
-
-#combinacion <- inner_join(enfermedades,sedentarismo, by= "Comunidad autónoma")
-
-hist(x= enfermedades$as.numeric(Total), xlab = "Fctores", ylab = "Comunidad autonoma", main="Variacion de la tabla de enfermedades")
-
 
 
 
