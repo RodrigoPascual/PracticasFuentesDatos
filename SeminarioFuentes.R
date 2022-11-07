@@ -11,7 +11,7 @@ library("dplyr")
 
 #combinacion <- inner_join(enfermedades,sedentarismo, by= "Comunidad autónoma")
 
-enfermedades_cronicas <- read_delim(file = "efermedades_cronicas.csv",delim = ";",show_col_types = FALSE)
+enfermedades_cronicas <- read_delim(file = "efermedades.csv",delim = ";",show_col_types = FALSE)
 sedentarismo <- read_delim(file = "sedentarismo.csv",delim = ";",show_col_types = FALSE)
 
 
@@ -67,23 +67,6 @@ library(dplyr)
 library(forcats)
 library(hrbrthemes)
 library(viridis)
-
-# Load dataset from github
-data
-
-# Grouped
-data %>%
-  Total %>%
-  Enfermedades %>%
-  Sexo + 
-  geom_violin(position="dodge", alpha=0.5, outlier.colour="transparent") +
-  scale_fill_viridis(discrete=T, name="") +
-  theme_ipsum()  +
-  xlab("") +
-  ylab("Tip (%)") +
-  ylim(0,40)
-
-
 
 
 
