@@ -11,7 +11,7 @@ library("dplyr")
 
 #combinacion <- inner_join(enfermedades,sedentarismo, by= "Comunidad autónoma")
 
-enfermedades_cronicas <- read_delim(file = "efermedades_cronicas.csv",delim = ";",show_col_types = FALSE)
+enfermedades_cronicas <- read_delim(file = "efermedades.csv",delim = ";",show_col_types = FALSE)
 sedentarismo <- read_delim(file = "sedentarismo.csv",delim = ";",show_col_types = FALSE)
 
 
@@ -67,6 +67,13 @@ library(dplyr)
 library(forcats)
 library(hrbrthemes)
 library(viridis)
+
+
+
+
+
+
+
 
 # Load dataset from github
 data
@@ -133,6 +140,3 @@ m
 # save the widget in a html file if needed.
 # library(htmlwidgets)
 # saveWidget(m, file=paste0( getwd(), "/HtmlWidget/backgroundMapBasic.html"))
-
-=======
->>>>>>> 04cf56e700b95aa4b8b902f438e095397b8be577
