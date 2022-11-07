@@ -54,11 +54,6 @@ ggplot (data2, aes( x = Total, y =Enfermedades, colour = Sexo))+ geom_point()
 
 
 
-
-
-
-
-
 library(dplyr)
 library(forcats)
 library(hrbrthemes)
