@@ -25,7 +25,7 @@ enfermedades <- data.frame(enfermedades)
 sedentarismo <-data.frame(sedentarismo)
 
 data <- data.frame(enfermedades,sedentarismo)
-View(data)
+View(data) 
 
 # Grouped
 'ggplot(data, aes(fill=data, y=sedentarismo, x=enfermedades)) + 
