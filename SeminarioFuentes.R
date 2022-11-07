@@ -1,6 +1,4 @@
 
-
-
 View(Enfermedades)
 View(Sedentarismo)
 
@@ -71,28 +69,10 @@ library(viridis)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ggplot(data = data2, aes(x = Total, y = Enfermedades)) +
+  geom_point(aes(colour = factor(Sexo))) +
+  facet_wrap(Comunidades.y.Ciudades.Autónomas~Sí.o.no)
+data2
 
 
 
@@ -116,6 +96,3 @@ m
 # save the widget in a html file if needed.
 # library(htmlwidgets)
 # saveWidget(m, file=paste0( getwd(), "/HtmlWidget/backgroundMapBasic.html"))
-
-=======
->>>>>>> 04cf56e700b95aa4b8b902f438e095397b8be577
