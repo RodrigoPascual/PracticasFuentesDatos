@@ -6,12 +6,23 @@ View(Sedentarismo)
 
 library("dplyr")
 #vamos a hacer un join entre nuestras dos tablas por comunidad autonoma
+#https://thomasadventure.blog/es/posts/r-fusionando-tablas-datos/
+
 
 #combinacion <- inner_join(enfermedades,sedentarismo, by= "Comunidad autónoma")
 
 enfermedades_cronicas <- read_delim(file = "efermedades_cronicas.csv",delim = ";",show_col_types = FALSE)
 sedentarismo <- read_delim(file = "sedentarismo.csv",delim = ";",show_col_types = FALSE)
 
+
+#
+innerunion <- inner_join(enfermedades,sedentarismo, by= "Comunidad autónoma")
+#
+unionIzquierda <- left_join(enfermedades,sedentarismo, by= "Comunidad autónoma")
+#
+unionDerecha <- right_join(enfermedades,sedentarismo, by= "Comunidad autónoma")
+#
+unionTotal <- full_join(enfermedades,sedentarismo, by= "Comunidad autónoma")
 
 
 
@@ -49,8 +60,6 @@ ggplot (data= data2, aes( x = Total, y =Enfermedades, colour = Sexo))+ geom_poin
 
 
 ggplot (data2, aes( x = Total, y =Enfermedades, colour = Sexo))+ geom_point()
-
-
 
 
 
@@ -125,3 +134,5 @@ m
 # library(htmlwidgets)
 # saveWidget(m, file=paste0( getwd(), "/HtmlWidget/backgroundMapBasic.html"))
 
+=======
+>>>>>>> 04cf56e700b95aa4b8b902f438e095397b8be577
