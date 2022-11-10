@@ -71,15 +71,6 @@ library(viridis)
 
 
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 21416f47eabc08d97676b8b5ddf6ebcaee53ff5c
-ggplot(data = data2, aes(x = Total, y = Enfermedades)) +
-  geom_point(aes(colour = factor(Sexo))) +
-  facet_wrap(Comunidades.y.Ciudades.Autónomas~Sí.o.no)
-data2
-
 
 
 # Load the library
@@ -98,11 +89,3 @@ m
 m <- leaflet() %>% 
   addTiles()
 m
-
-# save the widget in a html file if needed.
-# library(htmlwidgets)
-<<<<<<< HEAD
-# saveWidget(m, file=paste0( getwd(), "/HtmlWidget/backgroundMapBasic.html"))
-=======
-# saveWidget(m, file=paste0( getwd(), "/HtmlWidget/backgroundMapBasic.html"))
->>>>>>> 21416f47eabc08d97676b8b5ddf6ebcaee53ff5c
