@@ -1,6 +1,4 @@
 
-
-
 View(Enfermedades)
 View(Sedentarismo)
 
@@ -11,7 +9,7 @@ library("dplyr")
 
 #combinacion <- inner_join(enfermedades,sedentarismo, by= "Comunidad autónoma")
 
-enfermedades_cronicas <- read_delim(file = "efermedades.csv",delim = ";",show_col_types = FALSE)
+enfermedades_cronicas <- read_delim(file = "efermedades_cronicas.csv",delim = ";",show_col_types = FALSE)
 sedentarismo <- read_delim(file = "sedentarismo.csv",delim = ";",show_col_types = FALSE)
 
 
@@ -54,6 +52,8 @@ data2 <- data %>% filter(Sí.o.no.1 == "Sí")
 data2
 #view(data2)
 library(ggplot2)
+
+library(dplyr)
 ggplot (data= data2, aes( x = Total, y =Enfermedades, colour = Sexo))+ geom_point() + facet_wrap(Comunidades.y.Ciudades.Autónomas)
 
 
@@ -67,29 +67,6 @@ library(dplyr)
 library(forcats)
 library(hrbrthemes)
 library(viridis)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -112,10 +89,3 @@ m
 m <- leaflet() %>% 
   addTiles()
 m
-
-# save the widget in a html file if needed.
-# library(htmlwidgets)
-# saveWidget(m, file=paste0( getwd(), "/HtmlWidget/backgroundMapBasic.html"))
-
-=======
->>>>>>> 04cf56e700b95aa4b8b902f438e095397b8be577
