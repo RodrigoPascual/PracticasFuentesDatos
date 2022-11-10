@@ -54,6 +54,8 @@ data2 <- data %>% filter(Sí.o.no.1 == "Sí")
 data2
 #view(data2)
 library(ggplot2)
+
+library(dplyr)
 ggplot (data= data2, aes( x = Total, y =Enfermedades, colour = Sexo))+ geom_point() + facet_wrap(Comunidades.y.Ciudades.Autónomas)
 
 
@@ -72,51 +74,10 @@ library(viridis)
 
 
 
-
-
-
-# Load dataset from github
-data
-
-# Grouped
-data %>%
-  Total %>%
-  Enfermedades %>%
-  Sexo + 
-  geom_violin(position="dodge", alpha=0.5, outlier.colour="transparent") +
-  scale_fill_viridis(discrete=T, name="") +
-  theme_ipsum()  +
-  xlab("") +
-  ylab("Tip (%)") +
-  ylim(0,40)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ggplot(data = data2, aes(x = Total, y = Enfermedades)) +
+  geom_point(aes(colour = factor(Sexo))) +
+  facet_wrap(Comunidades.y.Ciudades.Autónomas~Sí.o.no)
+data2
 
 
 
