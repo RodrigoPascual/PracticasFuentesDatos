@@ -9,8 +9,15 @@ library("dplyr")
 
 #combinacion <- inner_join(enfermedades,sedentarismo, by= "Comunidad autónoma")
 
-enfermedades_cronicas <- read_delim(file = "efermedades_cronicas.csv",delim = ";",show_col_types = FALSE)
-sedentarismo <- read_delim(file = "sedentarismo.csv",delim = ";",show_col_types = FALSE)
+
+install.packages("tidyverse")
+library("tidyverse")
+enfermedades_cronicas <- read_delim(file = "input/enfermedades_cronicas.csv",delim = ";",show_col_types = FALSE)
+sedentarismo <- read_delim(file = "input/sedentarismo.csv",delim = ";",show_col_types = FALSE)
+
+
+
+
 
 
 #
