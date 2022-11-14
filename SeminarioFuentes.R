@@ -3,6 +3,7 @@ View(Enfermedades)
 View(Sedentarismo)
 
 library("dplyr")
+library("tidyverse")
 #vamos a hacer un join entre nuestras dos tablas por comunidad autonoma
 #https://thomasadventure.blog/es/posts/r-fusionando-tablas-datos/
 
@@ -10,8 +11,7 @@ library("dplyr")
 #combinacion <- inner_join(enfermedades,sedentarismo, by= "Comunidad autónoma")
 
 
-install.packages("tidyverse")
-library("tidyverse")
+
 enfermedades_cronicas <- read_delim(file = "input/enfermedades_cronicas.csv",delim = ";",show_col_types = FALSE)
 sedentarismo <- read_delim(file = "input/sedentarismo.csv",delim = ";",show_col_types = FALSE)
 
