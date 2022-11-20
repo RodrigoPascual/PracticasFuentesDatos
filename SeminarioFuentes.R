@@ -1,9 +1,11 @@
-
-View(Enfermedades)
-View(Sedentarismo)
-
-library("dplyr")
-library("tidyverse")
+# libraries
+library(ggplot2)
+library(dplyr)
+library(tidyverse)
+library(ggplot2)
+library(forcats)
+library(hrbrthemes)
+library(viridis)
 #vamos a hacer un join entre nuestras dos tablas por comunidad autonoma
 #https://thomasadventure.blog/es/posts/r-fusionando-tablas-datos/
 
@@ -18,24 +20,21 @@ sedentarismo <- read_delim(file = "input/sedentarismo.csv",delim = ";",show_col_
 
 
 
-
+enfermedades_cronicas
 
 #
-innerunion <- inner_join(enfermedades,sedentarismo, by= "Comunidad autónoma")
+innerunion <- inner_join(enfermedades_cronicas,sedentarismo, by= "Comunidades y Ciudades Autónomas")
 #
-unionIzquierda <- left_join(enfermedades,sedentarismo, by= "Comunidad autónoma")
+unionIzquierda <- left_join(enfermedades_cronicas,sedentarismo, by= "Comunidades y Ciudades Autónomas")
 #
-unionDerecha <- right_join(enfermedades,sedentarismo, by= "Comunidad autónoma")
+unionDerecha <- right_join(enfermedades_cronicas,sedentarismo, by= "Comunidades y Ciudades Autónomas")
 #
-unionTotal <- full_join(enfermedades,sedentarismo, by= "Comunidad autónoma")
+unionTotal <- full_join(enfermedades_cronicas,sedentarismo, by= "Comunidades y Ciudades Autónomas")
 
 
 
-iris
 
-# library
-library(ggplot2)
-library(dplyr)
+
 # create a dataset
 enfermedades <- data.frame(enfermedades)
 sedentarismo <-data.frame(sedentarismo)
@@ -48,32 +47,26 @@ View(data)
   geom_bar(position="dodge", stat="identity")'
 
 
-data
-library(ggplot2)
+#gráfica enfermedades-sexo. Enfermos y no enfermos
 ggplot (data, aes( x = Total, y =Enfermedades, colour = Sexo))+ geom_point()
 
-
-library(dplyr)
-data
+#Tabla de solo las personas que padecen la enfermedad
 data2 <- data %>% filter(Sí.o.no.1 == "Sí")
-data2
-#view(data2)
-library(ggplot2)
 
-library(dplyr)
-ggplot (data= data2, aes( x = Total, y =Enfermedades, colour = Sexo))+ geom_point() + facet_wrap(Comunidades.y.Ciudades.Autónomas)
-
-
-
-
+#gráfica enfermedades-sexo. Enfermos solo
 ggplot (data2, aes( x = Total, y =Enfermedades, colour = Sexo))+ geom_point()
 
+#
+ggplot (data= data2, aes( x = Total, y =Enfermedades, colour = Sexo))+ geom_point() + facet_wrap(Comunidades.y.Ciudades.Autónomas)
+
+#gráficas por comunidad, sexo y enfermedad padecida
+ggplot(data = data2, aes(x = Total, y = Enfermedades)) +
+  geom_point(aes(colour = factor(Sexo))) +
+  facet_wrap(Comunidad.autónoma~Sí.o.no)
 
 
-library(dplyr)
-library(forcats)
-library(hrbrthemes)
-library(viridis)
+
+
 
 
 
