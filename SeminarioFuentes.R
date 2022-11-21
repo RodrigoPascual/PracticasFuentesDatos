@@ -37,16 +37,11 @@ iris
 library(ggplot2)
 library(dplyr)
 # create a dataset
-enfermedades <- data.frame(enfermedades)
+enfermedades <- data.frame(enfermedades_cronicas)
 sedentarismo <-data.frame(sedentarismo)
 
-data <- data.frame(enfermedades,sedentarismo)
+data <- data.frame(enfermedades_cronicas,sedentarismo)
 View(data) 
-
-# Grouped
-'ggplot(data, aes(fill=data, y=sedentarismo, x=enfermedades)) + 
-  geom_bar(position="dodge", stat="identity")'
-
 
 data
 library(ggplot2)
@@ -61,10 +56,7 @@ data2
 library(ggplot2)
 
 library(dplyr)
-ggplot (data= data2, aes( x = Total, y =Enfermedades, colour = Sexo))+ geom_point() + facet_wrap(Comunidades.y.Ciudades.Autónomas)
-
-
-
+#ggplot (data= data2, aes( x = Total, y =enfermedades_cronicas, colour = Sexo))+ geom_point() + facet_wrap(Comunidades.y.Ciudades.Autónomas.1)
 
 ggplot (data2, aes( x = Total, y =Enfermedades, colour = Sexo))+ geom_point()
 
@@ -78,7 +70,31 @@ library(viridis)
 
 
 
+# creating a data frame
+df2 <- enfermedades_cronicas 
 
+
+df2$indice_sed <- sedentarismo$Total
+
+# printing the updated data frame
+print(df2)
+
+data_grouped <- enfermedades_cronicas                                   # Duplicate data table
+data_grouped[ , sum:=sum(sedentarismo), by = Comunidades.y.Ciudades.Autónomas)]  # Add grouped column
+data_grouped                                           # Print updated data table
+
+
+data2.2 <- group_by(data,Comunidades.y.Ciudades.Autónomas , .add = FALSE, .drop = group_by_drop_default(.data))
+data2.2
+
+
+
+
+
+
+
+
+group_by()
 
 # Load the library
 library(leaflet)
