@@ -1,4 +1,5 @@
 # libraries
+library(readr)
 library(ggplot2)
 library(dplyr)
 library(tidyverse)
@@ -36,7 +37,7 @@ unionTotal <- full_join(enfermedades_cronicas,sedentarismo, by= "Comunidades y C
 
 
 # create a dataset
-enfermedades <- data.frame(enfermedades)
+enfermedades <- data.frame(enfermedades_cronicas)
 sedentarismo <-data.frame(sedentarismo)
 
 data <- data.frame(enfermedades,sedentarismo)
@@ -48,7 +49,7 @@ View(data)
 
 
 #gráfica enfermedades-sexo. Enfermos y no enfermos
-ggplot (data, aes( x = Total, y =Enfermedades, colour = Sexo))+ geom_point()
+ggplot (data= data, aes( x = Total, y =Enfermedades, colour = Sexo))+ geom_point()
 
 #Tabla de solo las personas que padecen la enfermedad
 data2 <- data %>% filter(Sí.o.no.1 == "Sí")
@@ -66,11 +67,11 @@ ggplot(data = data2, aes(x = Total, y = Enfermedades)) +
 
 
 
+levels(factor(data2$Enfermedades))
+data3 <- data2 %>% 
+  filter(Enfermedades == "Problemas de próstata (solo hombres)" | Enfermedades == "Problemas del periodo menopáusico (solo mujeres)" | Enfermedades == "Migraña o dolor de cabeza frecuente" | Enfermedades == "Ictus (embolia, infarto cerebral, hemorragia cerebral)" | Enfermedades =="Hemorroides" | Enfermedades == "Osteoporosis")
 
-
-
-
-
+data3
 
 
 # Load the library
@@ -89,3 +90,4 @@ m
 m <- leaflet() %>% 
   addTiles()
 m
+
