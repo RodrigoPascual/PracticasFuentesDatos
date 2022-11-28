@@ -1,4 +1,5 @@
 # libraries
+library(readr)
 library(ggplot2)
 library(dplyr)
 library(tidyverse)
@@ -39,12 +40,8 @@ unionTotal <- full_join(enfermedades_cronicas,sedentarismo, by= "Comunidades y C
 enfermedades <- data.frame(enfermedades_cronicas)
 sedentarismo <-data.frame(sedentarismo)
 
-data <- data.frame(enfermedades_cronicas,sedentarismo)
+data <- data.frame(enfermedades,sedentarismo)
 View(data) 
-
-
-data
-library(ggplot2)
 
 # Grouped
 'ggplot(data, aes(fill=data, y=sedentarismo, x=enfermedades)) + 
@@ -52,19 +49,10 @@ library(ggplot2)
 
 
 #gráfica enfermedades-sexo. Enfermos y no enfermos
-
-ggplot (data, aes( x = Total, y =Enfermedades, colour = Sexo))+ geom_point()
+ggplot (data= data, aes( x = Total, y =Enfermedades, colour = Sexo))+ geom_point()
 
 #Tabla de solo las personas que padecen la enfermedad
 data2 <- data %>% filter(Sí.o.no.1 == "Sí")
-
-data2
-#view(data2)
-library(ggplot2)
-
-library(dplyr)
-#ggplot (data= data2, aes( x = Total, y =enfermedades_cronicas, colour = Sexo))+ geom_point() + facet_wrap(Comunidades.y.Ciudades.Autónomas.1)
-
 
 #gráfica enfermedades-sexo. Enfermos solo
 ggplot (data2, aes( x = Total, y =Enfermedades, colour = Sexo))+ geom_point()
@@ -79,28 +67,11 @@ ggplot(data = data2, aes(x = Total, y = Enfermedades)) +
 
 
 
+levels(factor(data2$Enfermedades))
+data3 <- data2 %>% 
+  filter(Enfermedades == "Problemas de próstata (solo hombres)" | Enfermedades == "Problemas del periodo menopáusico (solo mujeres)" | Enfermedades == "Migraña o dolor de cabeza frecuente" | Enfermedades == "Ictus (embolia, infarto cerebral, hemorragia cerebral)" | Enfermedades =="Hemorroides" | Enfermedades == "Osteoporosis")
 
-
-
-
-
-# creating a data frame
-df2 <- enfermedades_cronicas 
-
-
-df2$indice_sed <- sedentarismo$Total
-
-# printing the updated data frame
-print(df2)
-
-data_grouped <- enfermedades_cronicas                                   # Duplicate data table
-
-data_grouped                                           # Print updated data table
-
-
-data2.2 <- group_by(data,Comunidades.y.Ciudades.Autónomas , .add = FALSE, .drop = group_by_drop_default(.data))
-data2.2
-
+data3
 
 
 # Load the library
