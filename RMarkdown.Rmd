@@ -1,6 +1,8 @@
 ---
 title: "RMarkdown"
-output: html_document
+output:
+  html_document: default
+  word_document: default
 date: "2022-10-24"
 ---
 
@@ -13,6 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Relacion del sedentarismo con enfermedades
 
 ## Introduccion
+En nuestro seminario vamos a intentar relacionar dos tablas de sedentarismo y enfermedades
 
 ## R Markdown
 
@@ -20,9 +23,40 @@ This is an R Markdown document. Markdown is a simple formatting syntax for autho
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
+#introduccion
+#objetivos: max 3 para cada obketivo un metodo y un resultado
+
+#metodos: las paquetes usadas
+#resultado: tabla y una grafica
+#conclusion
+
+## Paquetes usadas:
+readr
+ggplot2
+dplyr
+tidyverse
+ggplot2
+forcats
+hrbrthemes
+
+
+## Explicación de los resultados de las tablas:
+
+data <- data.frame(enfermedades,sedentarismo)
+En este siguiente parametro lo asignamos las dos tablas 
+
+
+
+
+
+##Conclusión
+
+
+
+
 ```{r}
 library(readr)
-enfermedades <- read_delim("input/enfermedades.csv", 
+enfermedades <- read_delim("input/enfermedades_cronicas.csv", 
     delim = ";", escape_double = FALSE, trim_ws = TRUE)
 ```
 
