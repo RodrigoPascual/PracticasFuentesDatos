@@ -8,16 +8,34 @@ date: "2022-10-24"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+
 # SEMINARIO FUENTES DE BASES DE DATOS
 ## Relacion del sedentarismo con enfermedades
 
 ## Introduccion
+
+
+Vamos ha relacionar el grado de implicación del sedentarismo en una serie de enfermedades crónicas, para ello hemos escojido dos informes 
+del centro Nacinal de Estadístaca español, la primera tabla "enfermedades_cronicas" contendrá una una lista con la tasa de enfermededes 
+crónicas según el sexo y la comunidad autónoma, como hay muchas enfermedades seleccionaremos unas pocas que sean de interés para nuestro
+estudio y trataremos de encontar si hay relación o no con nuestra segunda tabla "sedentarismo" que nos aportará el índice de este según
+de nuevo el sexo y la comunidad autónoma.
+
+
+
 
 ## R Markdown
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r}
+library(readr)
+enfermedades <- read_delim("input/enfermedades.csv", 
+    delim = ";", escape_double = FALSE, trim_ws = TRUE)
+```
+
 
 ```{r enfermedades}
 summary(enfermedades)
@@ -27,6 +45,14 @@ plot(enfermedades)
 ## Including Plots
 
 You can also embed plots, for example:
+
+```{r}
+library(readr)
+sedentarismo <- read_delim("input/sedentarismo.csv", 
+    delim = ";", escape_double = FALSE, trim_ws = TRUE)
+```
+
+
 
 ```{r sedentarismo}
 summary(sedentarismo)
