@@ -6,7 +6,7 @@ date: "2022-10-24"
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-
+```
 
 # SEMINARIO FUENTES DE BASES DE DATOS
 # Relacion del sedentarismo con enfermedades
@@ -39,7 +39,7 @@ When you click the **Knit** button a document will be generated that includes bo
 
 ```{r}
 library(readr)
-enfermedades <- read_delim("input/enfermedades.csv", 
+enfermedades <- read_delim("input/enfermedades_cronicas.csv", 
     delim = ";", escape_double = FALSE, trim_ws = TRUE)
 ```
 
