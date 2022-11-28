@@ -10,12 +10,29 @@ date: "2022-10-24"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-
 # SEMINARIO FUENTES DE BASES DE DATOS
-## Relacion del sedentarismo con enfermedades
+# Relacion del sedentarismo con enfermedades
 
 ## Introduccion
 En nuestro seminario vamos a intentar relacionar dos tablas de sedentarismo y enfermedades
+
+
+Vamos ha relacionar el grado de implicación del sedentarismo en una serie de enfermedades crónicas, para ello hemos escojido dos informes 
+del centro Nacinal de Estadístaca español, la primera tabla "enfermedades_cronicas" contendrá una una lista con la tasa de enfermededes 
+crónicas según el sexo y la comunidad autónoma, como hay muchas enfermedades seleccionaremos unas pocas que sean de interés para nuestro
+estudio y trataremos de encontar si hay relación o no con nuestra segunda tabla "sedentarismo" que nos aportará el índice de este según
+de nuevo el sexo y la comunidad autónoma.
+
+
+## Objetivos(max. 3)
+
+## Métodos
+
+## Resultados 
+
+## Conclusión
+
+
 
 ## R Markdown
 

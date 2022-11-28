@@ -76,6 +76,21 @@ data3 <- data2 %>%
 
 data3
 
+datos_bien <- data3 %>%
+  across(c(Comunidades.y.Ciudades.Autonomas= comunidades.autonomas, Enfermedades, Total = total.enfermos, Total.1 = total.sedentarios, ))
+
+ggplot(data = data3, aes(x = Total, y = Enfermedades)) +
+  geom_point(aes(colour = factor(Sexo))) +
+  facet_wrap(Comunidades.y.Ciudades.Autónomas~Sí.o.no)
+
+
+ggplot(data = data3, aes(x = Total, y = Total.1))+  
+  geom_point(aes(colour = Comunidades.y.Ciudades.Autónomas))+  geom_smooth(colour = "red", linewidth = 1.75)+  
+  labs(x = "Enfermos", y = "Sedentarios")
+
+ggplot(data = data3, aes(x = Total.1, y = Total))+  
+  geom_point(aes(colour = Enfermedades))+  geom_smooth(colour = "red", linewidth = 1.75)+  
+  labs(x = "Enfermos", y = "Sedentarios")
 
 # Load the library
 library(leaflet)
@@ -93,4 +108,3 @@ m
 m <- leaflet() %>% 
   addTiles()
 m
-
