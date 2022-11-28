@@ -5,6 +5,7 @@ output:
   word_document: default
 date: "2022-10-24"
 ---
+# R Markdown
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -14,40 +15,113 @@ knitr::opts_chunk$set(echo = TRUE)
 # Relacion del sedentarismo con enfermedades
 
 ## Introduccion
-En nuestro seminario vamos a intentar relacionar dos tablas de sedentarismo y enfermedades
+
+Vamos ha relacionar el grado de implicación del sedentarismo en una serie de enfermedades crónicas, para ello hemos escojido dos informes del centro Nacional de Estadístaca español, la primera tabla "enfermedades_cronicas" contendrá una una lista con la tasa de enfermededes crónicas según el sexo y la comunidad autónoma, como hay muchas enfermedades seleccionaremos unas pocas que sean de interés para nuestro estudio y trataremos de encontar si hay relación o no con nuestra segunda tabla "sedentarismo" que nos aportará el índice de este según de nuevo el sexo y la comunidad autónoma.
 
 
-Vamos ha relacionar el grado de implicación del sedentarismo en una serie de enfermedades crónicas, para ello hemos escojido dos informes 
-del centro Nacinal de Estadístaca español, la primera tabla "enfermedades_cronicas" contendrá una una lista con la tasa de enfermededes 
-crónicas según el sexo y la comunidad autónoma, como hay muchas enfermedades seleccionaremos unas pocas que sean de interés para nuestro
-estudio y trataremos de encontar si hay relación o no con nuestra segunda tabla "sedentarismo" que nos aportará el índice de este según
-de nuevo el sexo y la comunidad autónoma.
+## Objetivos(max. 3):para cada objetivo un metodo y un resultado
 
-
-## Objetivos(max. 3)
-
-## Métodos
+## Métodos:
+### Paquetes usadas:
+readr
+ggplot2
+dplyr
+tidyverse
+ggplot2
+forcats
+hrbrthemes
 
 ## Resultados 
+### presentando las dos tablas con las cual vamos a sacar los resultados
+```{r}
+library(readr)
+enfermedades <- read_delim("input/enfermedades_cronicas.csv", 
+    delim = ";", escape_double = FALSE, trim_ws = TRUE)
 
+library(readr)
+sedentarismo <- read_delim("input/sedentarismo.csv", 
+    delim = ";", escape_double = FALSE, trim_ws = TRUE)
+```
+
+
+
+
+```{r}
+#gráfica enfermedades-sexo. Enfermos y no enfermos
+ggplot (data= data, aes( x = Total, y =Enfermedades, colour = Sexo))+ geom_point()
+
+#Tabla de solo las personas que padecen la enfermedad
+data2 <- data %>% filter(Sí.o.no.1 == "Sí")
+
+#gráfica enfermedades-sexo. Enfermos solo
+ggplot (data2, aes( x = Total, y =Enfermedades, colour = Sexo))+ geom_point()
+
+#
+ggplot (data= data2, aes( x = Total, y =Enfermedades, colour = Sexo))+ geom_point() + facet_wrap(Comunidades.y.Ciudades.Autónomas)
+
+#gráficas por comunidad, sexo y enfermedad padecida
+ggplot(data = data2, aes(x = Total, y = Enfermedades)) +
+  geom_point(aes(colour = factor(Sexo))) +
+  facet_wrap(Comunidad.autónoma~Sí.o.no)
+
+
+
+levels(factor(data2$Enfermedades))
+data3 <- data2 %>% 
+  filter(Enfermedades == "Problemas de próstata (solo hombres)" | Enfermedades == "Problemas del periodo menopáusico (solo mujeres)" | Enfermedades == "Migraña o dolor de cabeza frecuente" | Enfermedades == "Ictus (embolia, infarto cerebral, hemorragia cerebral)" | Enfermedades =="Hemorroides" | Enfermedades == "Osteoporosis")
+
+data3
+
+datos_bien <- data3 %>%
+  across(c(Comunidades.y.Ciudades.Autonomas= comunidades.autonomas, Enfermedades, Total = total.enfermos, Total.1 = total.sedentarios, ))
+
+ggplot(data = data3, aes(x = Total, y = Enfermedades)) +
+  geom_point(aes(colour = factor(Sexo))) +
+  facet_wrap(Comunidades.y.Ciudades.Autónomas~Sí.o.no)
+
+
+ggplot(data = data3, aes(x = Total, y = Total.1))+  
+  geom_point(aes(colour = Comunidades.y.Ciudades.Autónomas))+  geom_smooth(colour = "red", linewidth = 1.75)+  
+  labs(x = "Enfermos", y = "Sedentarios")
+
+ggplot(data = data3, aes(x = Total.1, y = Total))+  
+  geom_point(aes(colour = Enfermedades))+  geom_smooth(colour = "red", linewidth = 1.75)+  
+  labs(x = "Enfermos", y = "Sedentarios")
+
+# Load the library
+library(leaflet)
+
+# Note: if you do not already installed it, install it with:
+# install.packages("leaflet")
+
+# Initialize the leaflet map with the leaflet() function
+m <- leaflet()
+# Then we Add default OpenStreetMap map tiles
+m <- addTiles(m)
+m
+
+# Same stuff but using the %>% operator
+m <- leaflet() %>% 
+  addTiles()
+m
+
+```
 ## Conclusión
 
 
 
-## R Markdown
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
 #introduccion
-#objetivos: max 3 para cada obketivo un metodo y un resultado
+
+#objetivos: max 3 para cada objetivo un metodo y un resultado
 
 #metodos: las paquetes usadas
+
 #resultado: tabla y una grafica
+
 #conclusion
 
-## Paquetes usadas:
+### Paquetes usadas:
 readr
 ggplot2
 dplyr
@@ -57,24 +131,10 @@ forcats
 hrbrthemes
 
 
-## Explicación de los resultados de las tablas:
-
-data <- data.frame(enfermedades,sedentarismo)
-En este siguiente parametro lo asignamos las dos tablas 
-
-
-
-
-
-##Conclusión
-
-
 
 
 ```{r}
-library(readr)
-enfermedades <- read_delim("input/enfermedades_cronicas.csv", 
-    delim = ";", escape_double = FALSE, trim_ws = TRUE)
+
 ```
 
 
