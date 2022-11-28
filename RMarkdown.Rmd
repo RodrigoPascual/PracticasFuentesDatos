@@ -6,11 +6,10 @@ date: "2022-10-24"
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-```
 
 
 # SEMINARIO FUENTES DE BASES DE DATOS
-## Relacion del sedentarismo con enfermedades
+# Relacion del sedentarismo con enfermedades
 
 ## Introduccion
 
@@ -21,6 +20,14 @@ crónicas según el sexo y la comunidad autónoma, como hay muchas enfermedades 
 estudio y trataremos de encontar si hay relación o no con nuestra segunda tabla "sedentarismo" que nos aportará el índice de este según
 de nuevo el sexo y la comunidad autónoma.
 
+
+## Objetivos(max. 3)
+
+## Métodos
+
+## Resultados 
+
+## Conclusión
 
 
 
