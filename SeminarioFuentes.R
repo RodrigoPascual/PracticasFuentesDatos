@@ -23,12 +23,15 @@ sedentarismo <- read_delim(file = "input/sedentarismo.csv",delim = ";",show_col_
 
 enfermedades_cronicas
 
-#
+#En la unión interna, sólo los registros de Izquierda y Derecha que tengan una clave igual aparecerán en la tabla final.
 innerunion <- inner_join(enfermedades_cronicas,sedentarismo, by= "Comunidades y Ciudades Autónomas")
+
 #
 unionIzquierda <- left_join(enfermedades_cronicas,sedentarismo, by= "Comunidades y Ciudades Autónomas")
+
 #
 unionDerecha <- right_join(enfermedades_cronicas,sedentarismo, by= "Comunidades y Ciudades Autónomas")
+
 #
 unionTotal <- full_join(enfermedades_cronicas,sedentarismo, by= "Comunidades y Ciudades Autónomas")
 
