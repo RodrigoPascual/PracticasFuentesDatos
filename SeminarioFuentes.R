@@ -15,8 +15,8 @@ library(viridis)
 
 
 
-enfermedades_cronicas <- read_delim(file = "input/enfermedades_cronicas.csv",delim = ";",show_col_types = FALSE)
-sedentarismo <- read_delim(file = "input/sedentarismo.csv",delim = ";",show_col_types = FALSE)
+enfermedades_cronicas <- read_delim(file = "input/enfermedades_cronicas1.csv",delim = ";",show_col_types = FALSE)
+sedentarismocsv <- read_delim(file = "input/sedentarismo.csv",delim = ";",show_col_types = FALSE)
 
 
 
@@ -24,17 +24,23 @@ sedentarismo <- read_delim(file = "input/sedentarismo.csv",delim = ";",show_col_
 enfermedades_cronicas
 
 #
-innerunion <- inner_join(enfermedades_cronicas,sedentarismo, by= "Comunidades y Ciudades Autónomas")
+innerunion <- inner_join(enfermedades,sedentarismo)
 #
-unionIzquierda <- left_join(enfermedades_cronicas,sedentarismo, by= "Comunidades y Ciudades Autónomas")
+unionIzquierda <- left_join(enfermedades,sedentarismo, by = "Sexo")
 #
-unionDerecha <- right_join(enfermedades_cronicas,sedentarismo, by= "Comunidades y Ciudades Autónomas")
+unionDerecha <- right_join(enfermedades,sedentarismo)
 #
-unionTotal <- full_join(enfermedades_cronicas,sedentarismo, by= "Comunidades y Ciudades Autónomas")
+unionTotal <- full_join(enfermedades,sedentarismo)
 
+sedentarismo <-data.frame(sedentarismo)
+str(sedentarismo)
+sedentarismo<- sedentarismo%>%
+  transmute(Sexo, Comunidades.y.Ciudades.Autónomas,Sí.o.no, Total = as.numeric(Total))
 
-
-
+enfermedades <- data.frame(enfermedades_cronicas)
+str(enfermedades)
+enfermedades<- enfermedades%>%
+  transmute(Sexo, Comunidades.y.Ciudades.Autónomas, Enfermedades, Sí.o.no, Total = as.numeric(Total))
 
 # create a dataset
 enfermedades <- data.frame(enfermedades_cronicas)
