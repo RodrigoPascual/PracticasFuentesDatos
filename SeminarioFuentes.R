@@ -11,58 +11,35 @@ library(viridis)
 #https://thomasadventure.blog/es/posts/r-fusionando-tablas-datos/
 
 
-#combinacion <- inner_join(enfermedades,sedentarismo, by= "Comunidad autónoma")
 
 
+#carga de tablas con las que haremos el estudio
 
 enfermedades <- read_delim(file = "input/enfermedades_cronicas1.csv",delim = ";",show_col_types = FALSE)
 sedentarismo <- read_delim(file = "input/sedentarismo.csv",delim = ";",show_col_types = FALSE)
 
 
 
-
-enfermedades_cronicas
-
-#
-innerunion <- inner_join(enfermedades,sedentarismo)
-#
-unionIzquierda <- left_join(enfermedades,sedentarismo, by = "Sexo")
-#
-unionDerecha <- right_join(enfermedades,sedentarismo)
-#En la unión interna, sólo los registros de Izquierda y Derecha que tengan una clave igual aparecerán en la tabla final.
-innerunion <- inner_join(enfermedades_cronicas,sedentarismo, by= "Comunidades y Ciudades Autónomas")
-
-#
-unionIzquierda <- left_join(enfermedades_cronicas,sedentarismo, by= "Comunidades y Ciudades Autónomas")
-
-#
-unionDerecha <- right_join(enfermedades_cronicas,sedentarismo, by= "Comunidades y Ciudades Autónomas")
-
-#
-unionTotal <- full_join(enfermedades,sedentarismo)
-
-sedentarismo <-data.frame(sedentarismo)
-str(sedentarismo)
+#Cambiamos la columna de Total de str a numeric
 sedentarismo<- sedentarismo%>%
   transmute(Sexo, Comunidades.y.Ciudades.Autónomas,Sí.o.no, Total = as.numeric(Total))
 
-enfermedades <- data.frame(enfermedades)
-str(enfermedades)
 enfermedades<- enfermedades%>%
   transmute(Sexo, Comunidades.y.Ciudades.Autónomas, Enfermedades, Sí.o.no, Total = as.numeric(Total))
 
-# create a dataset
+#Paso de enfermedades y sedentarismo a data frame para hacer el join
 enfermedades <- data.frame(enfermedades_cronicas)
 sedentarismo <-data.frame(sedentarismo)
 
+#hacemos un full join con los data frames anteriores a partir de las columnas Sexo, Comunidades.y.Ciudades.Autónomas y Si.o.no
 data <- full_join(x = enfermedades, 
             y = sedentarismo,
             by = c("Sexo", "Comunidades.y.Ciudades.Autónomas", "Sí.o.no"))
 
+#Filtramos la tabla anterior solo por las enfermedades que vamos a estudiar
 data2 <- data %>% 
   filter(Enfermedades == "Problemas de próstata (solo hombres)" | Enfermedades == "Problemas del periodo menopáusico (solo mujeres)" | Enfermedades == "Migraña o dolor de cabeza frecuente" | Enfermedades == "Ictus (embolia, infarto cerebral, hemorragia cerebral)" | Enfermedades =="Hemorroides" | Enfermedades == "Osteoporosis")
 
-View(data2) 
 
 # Grouped
 'ggplot(data, aes(fill=data, y=sedentarismo, x=enfermedades)) + 
