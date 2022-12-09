@@ -46,7 +46,7 @@ str(sedentarismo)
 sedentarismo<- sedentarismo%>%
   transmute(Sexo, Comunidades.y.Ciudades.Autónomas,Sí.o.no, Total = as.numeric(Total))
 
-enfermedades <- data.frame(enfermedades_cronicas)
+enfermedades <- data.frame(enfermedades)
 str(enfermedades)
 enfermedades<- enfermedades%>%
   transmute(Sexo, Comunidades.y.Ciudades.Autónomas, Enfermedades, Sí.o.no, Total = as.numeric(Total))
@@ -55,13 +55,14 @@ enfermedades<- enfermedades%>%
 enfermedades <- data.frame(enfermedades_cronicas)
 sedentarismo <-data.frame(sedentarismo)
 
-data <- data.frame(full_join(enfermedades,sedentarismo)%>% by=c("Sexo.1", "Comunidades.y.Ciudades.Autónomas.1"))
-dataBien<- data%>%
-  transmute(Sexo, Comunidades.y.Ciudades.Autónomas, Enfermedades, Sí.o.no, Total = as.numeric(Total), Total.1)
-data3 <- dataBien %>% 
+data <- full_join(x = enfermedades, 
+            y = sedentarismo,
+            by = c("Sexo", "Comunidades.y.Ciudades.Autónomas", "Sí.o.no"))
+
+data2 <- data %>% 
   filter(Enfermedades == "Problemas de próstata (solo hombres)" | Enfermedades == "Problemas del periodo menopáusico (solo mujeres)" | Enfermedades == "Migraña o dolor de cabeza frecuente" | Enfermedades == "Ictus (embolia, infarto cerebral, hemorragia cerebral)" | Enfermedades =="Hemorroides" | Enfermedades == "Osteoporosis")
 
-View(data3) 
+View(data2) 
 
 # Grouped
 'ggplot(data, aes(fill=data, y=sedentarismo, x=enfermedades)) + 
@@ -69,10 +70,10 @@ View(data3)
 
 
 #gráfica enfermedades-sexo. Enfermos y no enfermos
-ggplot (data= data, aes( x = Total, y =Enfermedades, colour = Sexo))+ geom_point()
+ggplot (data= data, aes( x = Total.x, y =Enfermedades, colour = Sexo))+ geom_point()
 
 #Tabla de solo las personas que padecen la enfermedad
-data2 <- data %>% filter(Sí.o.no.1 == "Sí")
+data3 <- data2 %>% filter(Sí.o.no == "Sí")
 
 #gráfica enfermedades-sexo. Enfermos solo
 ggplot (data2, aes( x = Total, y =Enfermedades, colour = Sexo))+ geom_point()
@@ -81,47 +82,18 @@ ggplot (data2, aes( x = Total, y =Enfermedades, colour = Sexo))+ geom_point()
 ggplot (data= data2, aes( x = Total, y =Enfermedades, colour = Sexo))+ geom_point() + facet_wrap(Comunidades.y.Ciudades.Autónomas)
 
 #gráficas por comunidad, sexo y enfermedad padecida
-ggplot(data = data2, aes(x = Total, y = Enfermedades)) +
-  geom_point(aes(colour = factor(Sexo))) +
-  facet_wrap(Comunidad.autónoma~Sí.o.no)
-
-
-
-levels(factor(data2$Enfermedades))
-data3 <- data2 %>% 
-  filter(Enfermedades == "Problemas de próstata (solo hombres)" | Enfermedades == "Problemas del periodo menopáusico (solo mujeres)" | Enfermedades == "Migraña o dolor de cabeza frecuente" | Enfermedades == "Ictus (embolia, infarto cerebral, hemorragia cerebral)" | Enfermedades =="Hemorroides" | Enfermedades == "Osteoporosis")
-
-data3
-
-datos_bien <- data3 %>%
-  across(c(Comunidades.y.Ciudades.Autonomas= comunidades.autonomas, Enfermedades, Total = total.enfermos, Total.1 = total.sedentarios, ))
-
-ggplot(data = data3, aes(x = Total, y = Enfermedades)) +
+ggplot(data = data3, aes(x = Total.x, y = Enfermedades)) +
   geom_point(aes(colour = factor(Sexo))) +
   facet_wrap(Comunidades.y.Ciudades.Autónomas~Sí.o.no)
 
+#graficas de dispersión:
 
-ggplot(data = data3, aes(x = Total, y = Total.1))+  
-  geom_point(aes(colour = Comunidades.y.Ciudades.Autónomas))+  geom_smooth(colour = "red", linewidth = 1.75)+  
+#En función del sexo
+ggplot(data = data3, aes(x = Total.x, y = Total.y))+  
+  geom_point(aes(colour = Sexo))+  geom_smooth(colour = "red", linewidth = 1.75)+  
   labs(x = "Enfermos", y = "Sedentarios")
 
-ggplot(data = data3, aes(x = Total.1, y = Total))+  
+#En función de la enfermedad
+ggplot(data = data3, aes(x = Total.x, y = Total.y))+  
   geom_point(aes(colour = Enfermedades))+  geom_smooth(colour = "red", linewidth = 1.75)+  
   labs(x = "Enfermos", y = "Sedentarios")
-
-# Load the library
-library(leaflet)
-
-# Note: if you do not already installed it, install it with:
-# install.packages("leaflet")
-
-# Initialize the leaflet map with the leaflet() function
-m <- leaflet()
-# Then we Add default OpenStreetMap map tiles
-m <- addTiles(m)
-m
-
-# Same stuff but using the %>% operator
-m <- leaflet() %>% 
-  addTiles()
-m
