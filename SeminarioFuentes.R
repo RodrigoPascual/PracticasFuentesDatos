@@ -15,22 +15,20 @@ library(viridis)
 
 
 
-enfermedades_cronicas <- read_delim(file = "input/enfermedades_cronicas1.csv",delim = ";",show_col_types = FALSE)
-sedentarismocsv <- read_delim(file = "input/sedentarismo.csv",delim = ";",show_col_types = FALSE)
+enfermedades <- read_delim(file = "input/enfermedades_cronicas1.csv",delim = ";",show_col_types = FALSE)
+sedentarismo <- read_delim(file = "input/sedentarismo.csv",delim = ";",show_col_types = FALSE)
 
 
 
 
 enfermedades_cronicas
 
-<<<<<<< HEAD
 #
 innerunion <- inner_join(enfermedades,sedentarismo)
 #
 unionIzquierda <- left_join(enfermedades,sedentarismo, by = "Sexo")
 #
 unionDerecha <- right_join(enfermedades,sedentarismo)
-=======
 #En la unión interna, sólo los registros de Izquierda y Derecha que tengan una clave igual aparecerán en la tabla final.
 innerunion <- inner_join(enfermedades_cronicas,sedentarismo, by= "Comunidades y Ciudades Autónomas")
 
@@ -40,7 +38,6 @@ unionIzquierda <- left_join(enfermedades_cronicas,sedentarismo, by= "Comunidades
 #
 unionDerecha <- right_join(enfermedades_cronicas,sedentarismo, by= "Comunidades y Ciudades Autónomas")
 
->>>>>>> 5dd5ea940cf2ca31a5668ae41ae2455bb9fe4c59
 #
 unionTotal <- full_join(enfermedades,sedentarismo)
 
@@ -58,8 +55,13 @@ enfermedades<- enfermedades%>%
 enfermedades <- data.frame(enfermedades_cronicas)
 sedentarismo <-data.frame(sedentarismo)
 
-data <- data.frame(enfermedades,sedentarismo)
-View(data) 
+data <- data.frame(full_join(enfermedades,sedentarismo)%>% by=c("Sexo.1", "Comunidades.y.Ciudades.Autónomas.1"))
+dataBien<- data%>%
+  transmute(Sexo, Comunidades.y.Ciudades.Autónomas, Enfermedades, Sí.o.no, Total = as.numeric(Total), Total.1)
+data3 <- dataBien %>% 
+  filter(Enfermedades == "Problemas de próstata (solo hombres)" | Enfermedades == "Problemas del periodo menopáusico (solo mujeres)" | Enfermedades == "Migraña o dolor de cabeza frecuente" | Enfermedades == "Ictus (embolia, infarto cerebral, hemorragia cerebral)" | Enfermedades =="Hemorroides" | Enfermedades == "Osteoporosis")
+
+View(data3) 
 
 # Grouped
 'ggplot(data, aes(fill=data, y=sedentarismo, x=enfermedades)) + 
