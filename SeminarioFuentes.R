@@ -73,3 +73,30 @@ ggplot(data = data_sedentarismo, aes(x = Total.y, y = Sí.o.no)) +
 ggplot(data = data_soloSi, aes(x = Total.x, y = Total.y))+  
   geom_point(aes(colour = Enfermedades))+  geom_smooth(colour = "red", linewidth = 1.75)+  
   labs(x = "Enfermos", y = "Sedentarios")
+
+
+# Load the library
+library(leaflet)
+
+# Note: if you do not already installed it, install it with:
+# install.packages("leaflet")
+
+# Initialize the leaflet map with the leaflet() function
+m <- leaflet()
+# Then we Add default OpenStreetMap map tiles
+m <- addTiles(m)
+m
+
+# Same stuff but using the %>% operator
+m <- leaflet() %>% 
+  addTiles()
+m
+
+enfermedades_cronicas
+data5 <- data.frame(enfermedades_cronicas,sedentarismo)
+
+ggplot(data = data5, aes(x = enfermedades_cronicas, y = sedentarismo))+
+  geom_point(aes(colour = "Comunidades y Ciudades Autónomas"))+
+  geom_smooth(colour = "red")+
+  labs(x = "Enfermedades", y = "Sendentarismo")
+

@@ -5,7 +5,6 @@ output:
   word_document: default
 date: "2022-10-24"
 ---
-# R Markdown
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -21,144 +20,111 @@ Vamos ha relacionar el grado de implicación del sedentarismo en una serie de en
 
 ## Objetivos(max. 3):para cada objetivo un metodo y un resultado
 
+=======
 
 ## Métodos:
 ### Paquetes usadas:
-readr
-ggplot2
-dplyr
-tidyverse
-ggplot2
-forcats
-hrbrthemes
-
-## Resultados 
-### presentando las dos tablas con las cual vamos a sacar los resultados
 ```{r}
 library(readr)
-enfermedades <- read_delim("input/enfermedades_cronicas.csv", 
-    delim = ";", escape_double = FALSE, trim_ws = TRUE)
-
-library(readr)
-sedentarismo <- read_delim("input/sedentarismo.csv", 
-    delim = ";", escape_double = FALSE, trim_ws = TRUE)
+library(ggplot2)
+library(dplyr)
+library(tidyverse)
+library(ggplot2)
+library(forcats)
+library(hrbrthemes)
+library(viridis)
+library(leaflet)
 ```
 
 
 
+# Resultados y Analisis de los resultados
+### presentando las dos tablas con las cual vamos a sacar los resultados
 
 ```{r}
-#gráfica enfermedades-sexo. Enfermos y no enfermos
-ggplot (data= data, aes( x = Total, y =Enfermedades, colour = Sexo))+ geom_point()
+enfermedades <- read_delim(file = "input/enfermedades_cronicas.csv",delim = ";",show_col_types = FALSE)
+sedentarismo <- read_delim(file = "input/sedentarismo.csv",delim = ";",show_col_types = FALSE)
 
-#Tabla de solo las personas que padecen la enfermedad
-data2 <- data %>% filter(Sí.o.no.1 == "Sí")
+```
 
-#gráfica enfermedades-sexo. Enfermos solo
-ggplot (data2, aes( x = Total, y =Enfermedades, colour = Sexo))+ geom_point()
+##PIMERA GRAFICA
 
-#
-ggplot (data= data2, aes( x = Total, y =Enfermedades, colour = Sexo))+ geom_point() + facet_wrap(Comunidades.y.Ciudades.Autónomas)
+###gráficas por comunidad, sexo y enfermedad padecida
+###Indica en cada comunidad autónoma que enfermedad es mas padecida según cada sexo
 
-#gráficas por comunidad, sexo y enfermedad padecida
-ggplot(data = data2, aes(x = Total, y = Enfermedades)) +
+
+```{r}
+#Paso de enfermedades y sedentarismo a data frame para hacer el join
+enfermedades <- data.frame(enfermedades)
+sedentarismo <-data.frame(sedentarismo)
+
+#Cambiamos la columna de Total de str a numeric
+sedentarismo<- sedentarismo%>%
+  transmute(Sexo, Comunidades.y.Ciudades.Autónomas,Sí.o.no, Total = as.numeric(Total))
+
+enfermedades<- enfermedades%>%
+  transmute(Sexo, Comunidades.y.Ciudades.Autónomas, Enfermedades, Sí.o.no, Total = as.numeric(Total))
+```
+
+
+###hacemos un full join con los data frames anteriores a partir de las columnas Sexo, ###Comunidades.y.Ciudades.Autónomas y Si.o.no
+```{r}
+data <- full_join(x = enfermedades, 
+            y = sedentarismo,
+            by = c("Sexo", "Comunidades.y.Ciudades.Autónomas", "Sí.o.no"))
+
+```
+####Filtramos la tabla anterior solo por las enfermedades que vamos a estudiar
+
+```{r}
+data_menosEnfermedades <- data %>% 
+  filter(Enfermedades == "Tensión alta" | Enfermedades == "Varices en las piernas" | Enfermedades == "Migraña o dolor de cabeza frecuente" | Enfermedades == "Ictus (embolia, infarto cerebral, hemorragia cerebral)" | Enfermedades =="Hemorroides" | Enfermedades == "Osteoporosis")
+
+```
+
+####Tabla de solo las personas que padecen la enfermedad
+```{r}
+data_soloSi <- data_menosEnfermedades %>% filter(Sí.o.no == "Sí")
+```
+
+###gráficas por comunidad, sexo y enfermedad padecida
+###Indica en cada comunidad autónoma que enfermedad es mas padecida según cada sexo
+
+```{r}
+ggplot(data = data_soloSi, aes(x = Total.x, y = Enfermedades)) +
   geom_point(aes(colour = factor(Sexo))) +
-  facet_wrap(Comunidad.autónoma~Sí.o.no)
+  facet_wrap(~ Comunidades.y.Ciudades.Autónomas)
+```
+
+####Filtramos la tabla para que no salga al representar la gráfica el total
+
+```{r}
+data_sedentarismo <- data_menosEnfermedades %>% filter(Sí.o.no == "Sí" | Sí.o.no == "No")
+```
 
 
+###gráficas por comunidad, sexo y sedentarismo
+###Indica en cada comunidad autónoma que sexo es más sedentario ademas de que comunidad autonoma es mas sedentaria en general
 
-levels(factor(data2$Enfermedades))
-data3 <- data2 %>% 
-  filter(Enfermedades == "Problemas de próstata (solo hombres)" | Enfermedades == "Problemas del periodo menopáusico (solo mujeres)" | Enfermedades == "Migraña o dolor de cabeza frecuente" | Enfermedades == "Ictus (embolia, infarto cerebral, hemorragia cerebral)" | Enfermedades =="Hemorroides" | Enfermedades == "Osteoporosis")
-
-data3
-
-datos_bien <- data3 %>%
-  across(c(Comunidades.y.Ciudades.Autonomas= comunidades.autonomas, Enfermedades, Total = total.enfermos, Total.1 = total.sedentarios, ))
-
-ggplot(data = data3, aes(x = Total, y = Enfermedades)) +
+```{r}
+ggplot(data = data_sedentarismo, aes(x = Total.y, y = Sí.o.no)) +
   geom_point(aes(colour = factor(Sexo))) +
-  facet_wrap(Comunidades.y.Ciudades.Autónomas~Sí.o.no)
+  facet_wrap(~ Comunidades.y.Ciudades.Autónomas)
+```
 
 
-ggplot(data = data3, aes(x = Total, y = Total.1))+  
-  geom_point(aes(colour = Comunidades.y.Ciudades.Autónomas))+  geom_smooth(colour = "red", linewidth = 1.75)+  
-  labs(x = "Enfermos", y = "Sedentarios")
+###grafica de dispersión:
+###Sedentarismo en funcion de la enfermedad
 
-ggplot(data = data3, aes(x = Total.1, y = Total))+  
+```{r}
+ggplot(data = data_soloSi, aes(x = Total.x, y = Total.y))+  
   geom_point(aes(colour = Enfermedades))+  geom_smooth(colour = "red", linewidth = 1.75)+  
   labs(x = "Enfermos", y = "Sedentarios")
-
-# Load the library
-library(leaflet)
-
-# Note: if you do not already installed it, install it with:
-# install.packages("leaflet")
-
-# Initialize the leaflet map with the leaflet() function
-m <- leaflet()
-# Then we Add default OpenStreetMap map tiles
-m <- addTiles(m)
-m
-
-# Same stuff but using the %>% operator
-m <- leaflet() %>% 
-  addTiles()
-m
-
-```
-## Conclusión
-
-
-
-
-#introduccion
-
-#objetivos: max 3 para cada objetivo un metodo y un resultado
-
-#metodos: las paquetes usadas
-
-#resultado: tabla y una grafica
-
-#conclusion
-
-### Paquetes usadas:
-readr
-ggplot2
-dplyr
-tidyverse
-ggplot2
-forcats
-hrbrthemes
-
-
-
-
-```{r}
-
-```
-
-
-```{r enfermedades}
-summary(enfermedades)
-plot(enfermedades)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r}
-library(readr)
-sedentarismo <- read_delim("input/sedentarismo.csv", 
-    delim = ";", escape_double = FALSE, trim_ws = TRUE)
 ```
 
 
 
-```{r sedentarismo}
-summary(sedentarismo)
-plot(sedentarismo)
-```
+
+
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
