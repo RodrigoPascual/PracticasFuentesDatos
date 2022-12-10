@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function(e) {
     h = hs[i];
     if (!/^h[1-6]$/i.test(h.tagName)) continue;  // it should be a header h1-h6
     a = h.attributes;
-    while (a.length > 0) h.removeAttribute(a[0].name);
+    while (a.length > 0) h.removeAttribute(a[0].name); 
   }
 });
 </script>
@@ -368,6 +368,7 @@ pre code {
 <h1>Relacion del sedentarismo con enfermedades</h1>
 <div id="introduccion" class="section level2">
 <h2>Introduccion</h2>
+<<<<<<< HEAD
 <p>Vamos ha relacionar el grado de implicación del sedentarismo en una
 serie de enfermedades crónicas, para ello hemos escojido dos informes
 del centro Nacinal de Estadístaca español, la primera tabla
@@ -389,6 +390,10 @@ según de nuevo el sexo y la comunidad autónoma.</p>
 </div>
 <div id="conclusión" class="section level2">
 <h2>Conclusión</h2>
+=======
+<p>En nuestro seminario vamos a intentar relacionar dos tablas de
+sedentarismo y enfermedades</p>
+>>>>>>> 07f56022d915f2ee8db7c33104ecaaa62d37cbbf
 </div>
 <div id="r-markdown" class="section level2">
 <h2>R Markdown</h2>
@@ -399,6 +404,20 @@ on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http:
 generated that includes both content as well as the output of any
 embedded R code chunks within the document. You can embed an R code
 chunk like this:</p>
+<p>#introduccion #objetivos: max 3 para cada obketivo un metodo y un
+resultado</p>
+<p>#metodos: las paquetes usadas #resultado: tabla y una grafica
+#conclusion</p>
+</div>
+<div id="paquetes-usadas" class="section level2">
+<h2>Paquetes usadas:</h2>
+<p>readr ggplot2 dplyr tidyverse ggplot2 forcats hrbrthemes</p>
+</div>
+<div id="explicación-de-los-resultados-de-las-tablas" class="section level2">
+<h2>Explicación de los resultados de las tablas:</h2>
+<p>data &lt;- data.frame(enfermedades,sedentarismo) En este siguiente
+parametro lo asignamos las dos tablas</p>
+<p>##Conclusión</p>
 <pre class="r"><code>library(readr)
 enfermedades &lt;- read_delim(&quot;input/enfermedades_cronicas.csv&quot;, 
     delim = &quot;;&quot;, escape_double = FALSE, trim_ws = TRUE)</code></pre>
