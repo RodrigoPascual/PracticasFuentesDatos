@@ -108,3 +108,11 @@ m
 m <- leaflet() %>% 
   addTiles()
 m
+
+enfermedades_cronicas
+data5 <- data.frame(enfermedades_cronicas,sedentarismo)
+
+ggplot(data = data5, aes(x = enfermedades_cronicas, y = sedentarismo))+
+  geom_point(aes(colour = "Comunidades y Ciudades Autónomas"))+
+  geom_smooth(colour = "red")+
+  labs(x = "Enfermedades", y = "Sendentarismo")

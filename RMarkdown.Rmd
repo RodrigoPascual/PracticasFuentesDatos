@@ -21,6 +21,8 @@ Vamos ha relacionar el grado de implicación del sedentarismo en una serie de en
 
 ## Objetivos(max. 3):para cada objetivo un metodo y un resultado
 
+
+
 ## Métodos:
 ### Paquetes usadas:
 readr
@@ -30,6 +32,9 @@ tidyverse
 ggplot2
 forcats
 hrbrthemes
+
+
+
 
 ## Resultados 
 ### presentando las dos tablas con las cual vamos a sacar los resultados
@@ -110,25 +115,6 @@ m
 
 
 
-
-#introduccion
-
-#objetivos: max 3 para cada objetivo un metodo y un resultado
-
-#metodos: las paquetes usadas
-
-#resultado: tabla y una grafica
-
-#conclusion
-
-### Paquetes usadas:
-readr
-ggplot2
-dplyr
-tidyverse
-ggplot2
-forcats
-hrbrthemes
 
 
 
