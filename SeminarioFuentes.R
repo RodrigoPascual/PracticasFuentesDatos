@@ -11,14 +11,14 @@ library(viridis)
 #https://thomasadventure.blog/es/posts/r-fusionando-tablas-datos/
 
 
-
-
 #carga de tablas con las que haremos el estudio
 
 enfermedades <- read_delim(file = "input/enfermedades_cronicas1.csv",delim = ";",show_col_types = FALSE)
 sedentarismo <- read_delim(file = "input/sedentarismo.csv",delim = ";",show_col_types = FALSE)
 
-
+#Paso de enfermedades y sedentarismo a data frame para hacer el join
+enfermedades <- data.frame(enfermedades)
+sedentarismo <-data.frame(sedentarismo)
 
 #Cambiamos la columna de Total de str a numeric
 sedentarismo<- sedentarismo%>%
@@ -27,50 +27,49 @@ sedentarismo<- sedentarismo%>%
 enfermedades<- enfermedades%>%
   transmute(Sexo, Comunidades.y.Ciudades.Autónomas, Enfermedades, Sí.o.no, Total = as.numeric(Total))
 
-#Paso de enfermedades y sedentarismo a data frame para hacer el join
-enfermedades <- data.frame(enfermedades_cronicas)
-sedentarismo <-data.frame(sedentarismo)
-
 #hacemos un full join con los data frames anteriores a partir de las columnas Sexo, Comunidades.y.Ciudades.Autónomas y Si.o.no
 data <- full_join(x = enfermedades, 
             y = sedentarismo,
             by = c("Sexo", "Comunidades.y.Ciudades.Autónomas", "Sí.o.no"))
 
 #Filtramos la tabla anterior solo por las enfermedades que vamos a estudiar
-data2 <- data %>% 
-  filter(Enfermedades == "Problemas de próstata (solo hombres)" | Enfermedades == "Problemas del periodo menopáusico (solo mujeres)" | Enfermedades == "Migraña o dolor de cabeza frecuente" | Enfermedades == "Ictus (embolia, infarto cerebral, hemorragia cerebral)" | Enfermedades =="Hemorroides" | Enfermedades == "Osteoporosis")
+data_menosEnfermedades <- data %>% 
+  filter(Enfermedades == "Tensión alta" | Enfermedades == "Varices en las piernas" | Enfermedades == "Migraña o dolor de cabeza frecuente" | Enfermedades == "Ictus (embolia, infarto cerebral, hemorragia cerebral)" | Enfermedades =="Hemorroides" | Enfermedades == "Osteoporosis")
 
+#Tabla de solo las personas que padecen la enfermedad
+data_soloSi <- data_menosEnfermedades %>% filter(Sí.o.no == "Sí")
 
-# Grouped
-'ggplot(data, aes(fill=data, y=sedentarismo, x=enfermedades)) + 
-  geom_bar(position="dodge", stat="identity")'
-
+#-----------------------------------
 
 #gráfica enfermedades-sexo. Enfermos y no enfermos
 ggplot (data= data, aes( x = Total.x, y =Enfermedades, colour = Sexo))+ geom_point()
 
-#Tabla de solo las personas que padecen la enfermedad
-data3 <- data2 %>% filter(Sí.o.no == "Sí")
-
 #gráfica enfermedades-sexo. Enfermos solo
 ggplot (data2, aes( x = Total, y =Enfermedades, colour = Sexo))+ geom_point()
 
-#
 ggplot (data= data2, aes( x = Total, y =Enfermedades, colour = Sexo))+ geom_point() + facet_wrap(Comunidades.y.Ciudades.Autónomas)
 
+#------------------------------------
+
 #gráficas por comunidad, sexo y enfermedad padecida
-ggplot(data = data3, aes(x = Total.x, y = Enfermedades)) +
+#Indica en cada comunidad autónoma que enfermedad es mas padecida según cada sexo
+ggplot(data = data_soloSi, aes(x = Total.x, y = Enfermedades)) +
   geom_point(aes(colour = factor(Sexo))) +
-  facet_wrap(Comunidades.y.Ciudades.Autónomas~Sí.o.no)
+  facet_wrap(~ Comunidades.y.Ciudades.Autónomas)
 
-#graficas de dispersión:
+#Filtramos la tabla para que no salga al representar la gráfica el total
+data_sedentarismo <- data_menosEnfermedades %>% filter(Sí.o.no == "Sí" | Sí.o.no == "No")
 
-#En función del sexo
-ggplot(data = data3, aes(x = Total.x, y = Total.y))+  
-  geom_point(aes(colour = Sexo))+  geom_smooth(colour = "red", linewidth = 1.75)+  
-  labs(x = "Enfermos", y = "Sedentarios")
+#gráficas por comunidad, sexo y sedentarismo
+#Indica en cada comunidad autónoma que sexo es más sedentario ademas de que comunidad autonoma es mas sedentaria en general
+ggplot(data = data_sedentarismo, aes(x = Total.y, y = Sí.o.no)) +
+  geom_point(aes(colour = factor(Sexo))) +
+  facet_wrap(~ Comunidades.y.Ciudades.Autónomas)
 
-#En función de la enfermedad
-ggplot(data = data3, aes(x = Total.x, y = Total.y))+  
+
+#grafica de dispersión:
+
+#Sedentarismo en funcion de la enfermedad
+ggplot(data = data_soloSi, aes(x = Total.x, y = Total.y))+  
   geom_point(aes(colour = Enfermedades))+  geom_smooth(colour = "red", linewidth = 1.75)+  
   labs(x = "Enfermos", y = "Sedentarios")
