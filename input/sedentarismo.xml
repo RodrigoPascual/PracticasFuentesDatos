@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <dcat:Dataset rdf:about="https://datos.gob.es/catalogo/ea0010587-sedentarismo-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p06-l0-04009-px">
+    <dct:title xml:lang="es">Sedentarismo según sexo y comunidad autónoma. Población de 15 y más años. (Identificador API: /t15/p420/a2019/p06/l0/04009.px)</dct:title>
+    <dcat:keyword xml:lang="en">Asturias (Principado de)</dcat:keyword>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"/>
+    <dcat:keyword xml:lang="en">Castilla-La Mancha</dcat:keyword>
+    <dcat:keyword xml:lang="es">Comunidad autónoma</dcat:keyword>
+    <dcat:keyword xml:lang="en">Statistics</dcat:keyword>
+    <dct:publisher>
+      <skos:Concept rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0010587">
+        <skos:notation>EA0010587</skos:notation>
+        <skos:prefLabel>Instituto Nacional de Estadística</skos:prefLabel>
+      </skos:Concept>
+    </dct:publisher>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Pais-Vasco"/>
+    <dcat:keyword xml:lang="es">Encuesta Europea de Salud</dcat:keyword>
+    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/salud"/>
+    <dcat:keyword xml:lang="en">País Vasco</dcat:keyword>
+    <dct:identifier>urn:ine:es:TABLA:PX:t15:p420:a2019:p06:04009</dct:identifier>
+    <dcat:keyword xml:lang="en">Balears (Illes)</dcat:keyword>
+    <dct:language>en</dct:language>
+    <dcat:keyword xml:lang="es">Estadísticas</dcat:keyword>
+    <dcat:keyword xml:lang="en">Cantabria</dcat:keyword>
+    <dcat:keyword xml:lang="en">Autonomous Community</dcat:keyword>
+    <dcat:keyword xml:lang="en">European Health Survey</dcat:keyword>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Extremadura"/>
+    <dcat:keyword xml:lang="en">Aragón</dcat:keyword>
+    <dcat:keyword xml:lang="en">Madrid (Comunidad de)</dcat:keyword>
+    <dcat:keyword xml:lang="es">Estado de salud y factores condicionantes</dcat:keyword>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Melilla"/>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Canarias"/>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Cataluna"/>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunitat-Valenciana"/>
+    <dcat:keyword xml:lang="en">Health</dcat:keyword>
+    <dcat:keyword xml:lang="en">Comunitat Valenciana</dcat:keyword>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://datos.gob.es/catalogo/ea0010587-sedentarismo-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p06-l0-04009-px/resource/13988cfe-a612-4528-9e81-cef70bc5e38f">
+        <dct:format rdf:resource="https://datos.gob.es/catalogo/ea0010587-sedentarismo-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p06-l0-04009-px/resource/13988cfe-a612-4528-9e81-cef70bc5e38f/format"/>
+        <dct:title xml:lang="en">Excel: XLS extension</dct:title>
+        <dct:title xml:lang="es">Excel: Extensión XLS</dct:title>
+        <dcat:accessURL>https://www.ine.es/jaxi/files/tpx/xls/48055.xls</dcat:accessURL>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Principado-Asturias"/>
+    <dcat:keyword xml:lang="en">Extremadura</dcat:keyword>
+    <dct:language>es</dct:language>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://datos.gob.es/catalogo/ea0010587-sedentarismo-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p06-l0-04009-px/resource/74a30ff3-6f11-48f8-8dfe-8d96ba0bac5a">
+        <dct:title xml:lang="es">Texto plano: separado por tabuladores</dct:title>
+        <dcat:accessURL>https://www.ine.es/jaxi/files/tpx/csv/48055.csv</dcat:accessURL>
+        <dct:title xml:lang="en">Plain Text: separated by tab</dct:title>
+        <dct:format rdf:resource="https://datos.gob.es/catalogo/ea0010587-sedentarismo-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p06-l0-04009-px/resource/74a30ff3-6f11-48f8-8dfe-8d96ba0bac5a/format"/>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:keyword xml:lang="en">Yes</dcat:keyword>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Madrid"/>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/La-Rioja"/>
+    <dcat:keyword xml:lang="es">Sí</dcat:keyword>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Andalucia"/>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Region-Murcia"/>
+    <dcat:keyword xml:lang="en">Women</dcat:keyword>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Galicia"/>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://datos.gob.es/catalogo/ea0010587-sedentarismo-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p06-l0-04009-px/resource/c02d7406-469c-4885-ae72-4ce6632cd201">
+        <dct:title xml:lang="es">Excel: Extension XLSx</dct:title>
+        <dcat:accessURL>https://www.ine.es/jaxi/files/tpx/xlsx/48055.xlsx</dcat:accessURL>
+        <dct:title xml:lang="en">Excel: XLSx extension</dct:title>
+        <dct:format rdf:resource="https://datos.gob.es/catalogo/ea0010587-sedentarismo-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p06-l0-04009-px/resource/c02d7406-469c-4885-ae72-4ce6632cd201/format"/>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:keyword xml:lang="en">Ceuta (Ciudad Autónoma de)</dcat:keyword>
+    <dcat:keyword xml:lang="en">Galicia</dcat:keyword>
+    <dcat:keyword xml:lang="en">Murcia (Región de)</dcat:keyword>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://datos.gob.es/catalogo/ea0010587-sedentarismo-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p06-l0-04009-px/resource/75d3f270-0593-45d0-8eac-6ee74fbc34db">
+        <dct:title xml:lang="es">Json</dct:title>
+        <dct:format rdf:resource="https://datos.gob.es/catalogo/ea0010587-sedentarismo-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p06-l0-04009-px/resource/75d3f270-0593-45d0-8eac-6ee74fbc34db/format"/>
+        <dcat:accessURL>https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/48055?tip=AM</dcat:accessURL>
+        <dct:title xml:lang="en">Json</dct:title>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:keyword xml:lang="en">Total</dcat:keyword>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Ceuta"/>
+    <dcat:keyword xml:lang="en">Canarias</dcat:keyword>
+    <dcat:keyword xml:lang="es">Mujeres</dcat:keyword>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Aragon"/>
+    <dcat:keyword xml:lang="es">sí o no</dcat:keyword>
+    <dcat:keyword xml:lang="es">sexo</dcat:keyword>
+    <dcat:keyword xml:lang="es">Ambos sexos</dcat:keyword>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://datos.gob.es/catalogo/ea0010587-sedentarismo-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p06-l0-04009-px/resource/3824139b-19da-4376-91a9-f6905c4178c5">
+        <dct:title xml:lang="en">CSV: Tab Separated</dct:title>
+        <dct:title xml:lang="es">CSV: separado por tabuladores</dct:title>
+        <dcat:accessURL>https://www.ine.es/jaxi/files/tpx/csv_bd/48055.csv</dcat:accessURL>
+        <dct:format rdf:resource="https://datos.gob.es/catalogo/ea0010587-sedentarismo-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p06-l0-04009-px/resource/3824139b-19da-4376-91a9-f6905c4178c5/format"/>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:keyword xml:lang="en">Rioja (La)</dcat:keyword>
+    <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+    <dcat:keyword xml:lang="es">Salud</dcat:keyword>
+    <dcat:keyword xml:lang="en">yes or no</dcat:keyword>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Foral-Navarra"/>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://datos.gob.es/catalogo/ea0010587-sedentarismo-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p06-l0-04009-px/resource/fca7f8e8-f597-414a-b431-73f4545da948">
+        <dct:format rdf:resource="https://datos.gob.es/catalogo/ea0010587-sedentarismo-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p06-l0-04009-px/resource/fca7f8e8-f597-414a-b431-73f4545da948/format"/>
+        <dct:title xml:lang="es">Texto plano: separado por ;</dct:title>
+        <dct:title xml:lang="en">Plain Text: separated by semicolons</dct:title>
+        <dcat:accessURL>https://www.ine.es/jaxi/files/tpx/csv_sc/48055.csv</dcat:accessURL>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dct:title xml:lang="en">Sedentary lifestyle by sex and Autonomous Community. Population aged 15 years old and over. (API identifier: /t15/p420/a2019/p06/l0/04009.px)</dct:title>
+    <dct:references rdf:resource="https://www.ine.es/dyngs/IOE/es/operacion.htm?numinv=54088"/>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://datos.gob.es/catalogo/ea0010587-sedentarismo-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p06-l0-04009-px/resource/24999d60-1cbe-4fc4-adb3-f4225f9ae667">
+        <dcat:accessURL>https://www.ine.es/jaxi/files/tpx/csv_c/48055.csv</dcat:accessURL>
+        <dct:title xml:lang="en">Plain Text: separated by comma</dct:title>
+        <dct:title xml:lang="es">Texto plano: separado por ,</dct:title>
+        <dct:format rdf:resource="https://datos.gob.es/catalogo/ea0010587-sedentarismo-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p06-l0-04009-px/resource/24999d60-1cbe-4fc4-adb3-f4225f9ae667/format"/>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dct:conformsTo rdf:resource="https://www.ine.es/dynt3/metadatos/es/RespuestaDatos.htm?oe=54088"/>
+    <dcat:keyword xml:lang="en">Men</dcat:keyword>
+    <dcat:keyword xml:lang="es">Hombres</dcat:keyword>
+    <dcat:keyword xml:lang="en">Andalucía</dcat:keyword>
+    <dcat:keyword xml:lang="en">Cataluña</dcat:keyword>
+    <dcat:keyword xml:lang="es">No</dcat:keyword>
+    <dcat:keyword xml:lang="en">Castilla y León</dcat:keyword>
+    <dct:description xml:lang="es">Tabla de INEbase
+Sedentarismo según sexo y comunidad autónoma. Población de 15 y más años. Encuesta Europea de Salud</dct:description>
+    <dcat:keyword xml:lang="en">Both sexes</dcat:keyword>
+    <dcat:keyword xml:lang="es">TOTAL</dcat:keyword>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Castilla-Leon"/>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Castilla-La-Mancha"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-26T02:00:00+02:00</dct:modified>
+    <dcat:keyword xml:lang="en">Melilla (Ciudad Autónoma de)</dcat:keyword>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://datos.gob.es/catalogo/ea0010587-sedentarismo-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p06-l0-04009-px/resource/4c09fb3b-e655-4ee7-bba0-49fd0741045b">
+        <dcat:accessURL>https://www.ine.es/jaxi/Tabla.htm?tpx=48055</dcat:accessURL>
+        <dct:title xml:lang="en">Html</dct:title>
+        <dct:title xml:lang="es">Html</dct:title>
+        <dct:format rdf:resource="https://datos.gob.es/catalogo/ea0010587-sedentarismo-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p06-l0-04009-px/resource/4c09fb3b-e655-4ee7-bba0-49fd0741045b/format"/>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dct:description xml:lang="en">Table of INEBase
+Sedentary lifestyle by sex and Autonomous Community. Population aged 15 years old and over. National. European Health Survey</dct:description>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Cantabria"/>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://datos.gob.es/catalogo/ea0010587-sedentarismo-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p06-l0-04009-px/resource/c1b51ea9-069a-4cba-85a0-a47b502cad99">
+        <dct:title xml:lang="es">Pc-Axis</dct:title>
+        <dcat:accessURL>https://www.ine.es/jaxi/files/tpx/px/48055.px</dcat:accessURL>
+        <dct:title xml:lang="en">Pc-Axis</dct:title>
+        <dct:format rdf:resource="https://datos.gob.es/catalogo/ea0010587-sedentarismo-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p06-l0-04009-px/resource/c1b51ea9-069a-4cba-85a0-a47b502cad99/format"/>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears"/>
+    <dcat:keyword xml:lang="en">sex</dcat:keyword>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://datos.gob.es/catalogo/ea0010587-sedentarismo-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p06-l0-04009-px/resource/1b7e8910-3c11-4549-bba8-3bea19ac02b9">
+        <dct:title xml:lang="en">CSV: Separated by ;</dct:title>
+        <dcat:accessURL>https://www.ine.es/jaxi/files/tpx/csv_bdsc/48055.csv</dcat:accessURL>
+        <dct:title xml:lang="es">CSV: separado por ;</dct:title>
+        <dct:format rdf:resource="https://datos.gob.es/catalogo/ea0010587-sedentarismo-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p06-l0-04009-px/resource/1b7e8910-3c11-4549-bba8-3bea19ac02b9/format"/>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:keyword xml:lang="en">State of health and conditioning factors</dcat:keyword>
+    <dcat:keyword xml:lang="en">Navarra (Comunidad Foral de)</dcat:keyword>
+  </dcat:Dataset>
+  <dct:IMT rdf:about="https://datos.gob.es/catalogo/ea0010587-sedentarismo-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p06-l0-04009-px/resource/74a30ff3-6f11-48f8-8dfe-8d96ba0bac5a/format">
+    <rdf:value>text/csv</rdf:value>
+    <rdfs:label>CSV</rdfs:label>
+  </dct:IMT>
+  <dct:IMT rdf:about="https://datos.gob.es/catalogo/ea0010587-sedentarismo-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p06-l0-04009-px/resource/24999d60-1cbe-4fc4-adb3-f4225f9ae667/format">
+    <rdfs:label>CSV</rdfs:label>
+    <rdf:value>text/csv</rdf:value>
+  </dct:IMT>
+  <dct:IMT rdf:about="https://datos.gob.es/catalogo/ea0010587-sedentarismo-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p06-l0-04009-px/resource/1b7e8910-3c11-4549-bba8-3bea19ac02b9/format">
+    <rdfs:label>CSV</rdfs:label>
+    <rdf:value>text/csv</rdf:value>
+  </dct:IMT>
+  <dct:IMT rdf:about="https://datos.gob.es/catalogo/ea0010587-sedentarismo-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p06-l0-04009-px/resource/fca7f8e8-f597-414a-b431-73f4545da948/format">
+    <rdfs:label>CSV</rdfs:label>
+    <rdf:value>text/csv</rdf:value>
+  </dct:IMT>
+  <dct:IMT rdf:about="https://datos.gob.es/catalogo/ea0010587-sedentarismo-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p06-l0-04009-px/resource/c02d7406-469c-4885-ae72-4ce6632cd201/format">
+    <rdf:value>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</rdf:value>
+    <rdfs:label>XLSX</rdfs:label>
+  </dct:IMT>
+  <dct:IMT rdf:about="https://datos.gob.es/catalogo/ea0010587-sedentarismo-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p06-l0-04009-px/resource/3824139b-19da-4376-91a9-f6905c4178c5/format">
+    <rdf:value>text/csv</rdf:value>
+    <rdfs:label>CSV</rdfs:label>
+  </dct:IMT>
+  <dct:IMT rdf:about="https://datos.gob.es/catalogo/ea0010587-sedentarismo-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p06-l0-04009-px/resource/4c09fb3b-e655-4ee7-bba0-49fd0741045b/format">
+    <rdfs:label>HTML</rdfs:label>
+    <rdf:value>text/html</rdf:value>
+  </dct:IMT>
+  <dct:IMT rdf:about="https://datos.gob.es/catalogo/ea0010587-sedentarismo-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p06-l0-04009-px/resource/c1b51ea9-069a-4cba-85a0-a47b502cad99/format">
+    <rdfs:label>PC-Axis</rdfs:label>
+    <rdf:value>text/pc-axis</rdf:value>
+  </dct:IMT>
+  <dct:IMT rdf:about="https://datos.gob.es/catalogo/ea0010587-sedentarismo-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p06-l0-04009-px/resource/75d3f270-0593-45d0-8eac-6ee74fbc34db/format">
+    <rdf:value>application/json</rdf:value>
+    <rdfs:label>JSON</rdfs:label>
+  </dct:IMT>
+  <dct:IMT rdf:about="https://datos.gob.es/catalogo/ea0010587-sedentarismo-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p06-l0-04009-px/resource/13988cfe-a612-4528-9e81-cef70bc5e38f/format">
+    <rdf:value>application/vnd.ms-excel</rdf:value>
+    <rdfs:label>XLS</rdfs:label>
+  </dct:IMT>
+</rdf:RDF>

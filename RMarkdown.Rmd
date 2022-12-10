@@ -39,18 +39,18 @@ library(leaflet)
 
 
 # Resultados y Analisis de los resultados
-### presentando las dos tablas con las cual vamos a sacar los resultados
+presentando las dos tablas con las cual vamos a sacar los resultados
 
 ```{r}
-enfermedades <- read_delim(file = "input/enfermedades_cronicas.csv",delim = ";",show_col_types = FALSE)
+enfermedades <- read_delim(file = "input/enfermedades_cronicas1.csv",delim = ";",show_col_types = FALSE)
 sedentarismo <- read_delim(file = "input/sedentarismo.csv",delim = ";",show_col_types = FALSE)
 
 ```
 
-##PIMERA GRAFICA
+PIMERA GRAFICA
 
-###gráficas por comunidad, sexo y enfermedad padecida
-###Indica en cada comunidad autónoma que enfermedad es mas padecida según cada sexo
+gráficas por comunidad, sexo y enfermedad padecida
+Indica en cada comunidad autónoma que enfermedad es mas padecida según cada sexo
 
 
 ```{r}
@@ -59,19 +59,19 @@ enfermedades <- data.frame(enfermedades)
 sedentarismo <-data.frame(sedentarismo)
 
 #Cambiamos la columna de Total de str a numeric
-sedentarismo<- sedentarismo%>%
-  transmute(Sexo, Comunidades.y.Ciudades.Autónomas,Sí.o.no, Total = as.numeric(Total))
+#sedentarismo<- sedentarismo%>%
+#  transmute(Sexo, Comunidades.y.Ciudades.Autónomas,Sí.o.no, Total = as.numeric(Total))
 
-enfermedades<- enfermedades%>%
-  transmute(Sexo, Comunidades.y.Ciudades.Autónomas, Enfermedades, Sí.o.no, Total = as.numeric(Total))
+#enfermedades<- enfermedades%>%
+ # transmute(Sexo, Comunidades.y.Ciudades.Autónomas, Enfermedades, Sí.o.no, Total = as.numeric(Total))
 ```
 
 
-###hacemos un full join con los data frames anteriores a partir de las columnas Sexo, ###Comunidades.y.Ciudades.Autónomas y Si.o.no
+###hacemos un full join con los data frames anteriores a partir de las columnas Sexo, Comunidades.y.Ciudades.Autónomas y Si.o.no
 ```{r}
 data <- full_join(x = enfermedades, 
             y = sedentarismo,
-            by = c("Sexo", "Comunidades.y.Ciudades.Autónomas", "Sí.o.no"))
+            by = c("Sexo", "Comunidades.y.Ciudades.Autónomas" ,"Sí.o.no"))
 
 ```
 ####Filtramos la tabla anterior solo por las enfermedades que vamos a estudiar
@@ -96,15 +96,15 @@ ggplot(data = data_soloSi, aes(x = Total.x, y = Enfermedades)) +
   facet_wrap(~ Comunidades.y.Ciudades.Autónomas)
 ```
 
-####Filtramos la tabla para que no salga al representar la gráfica el total
+Filtramos la tabla para que no salga al representar la gráfica el total
 
 ```{r}
 data_sedentarismo <- data_menosEnfermedades %>% filter(Sí.o.no == "Sí" | Sí.o.no == "No")
 ```
 
 
-###gráficas por comunidad, sexo y sedentarismo
-###Indica en cada comunidad autónoma que sexo es más sedentario ademas de que comunidad autonoma es mas sedentaria en general
+gráficas por comunidad, sexo y sedentarismo
+Indica en cada comunidad autónoma que sexo es más sedentario ademas de que comunidad autonoma es mas sedentaria en general
 
 ```{r}
 ggplot(data = data_sedentarismo, aes(x = Total.y, y = Sí.o.no)) +
@@ -113,8 +113,8 @@ ggplot(data = data_sedentarismo, aes(x = Total.y, y = Sí.o.no)) +
 ```
 
 
-###grafica de dispersión:
-###Sedentarismo en funcion de la enfermedad
+grafica de dispersión:
+Sedentarismo en funcion de la enfermedad
 
 ```{r}
 ggplot(data = data_soloSi, aes(x = Total.x, y = Total.y))+  

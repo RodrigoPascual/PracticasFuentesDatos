@@ -16,16 +16,18 @@ library(viridis)
 enfermedades <- read_delim(file = "input/enfermedades_cronicas1.csv",delim = ";",show_col_types = FALSE)
 sedentarismo <- read_delim(file = "input/sedentarismo.csv",delim = ";",show_col_types = FALSE)
 
+###hemos importado los datos con CSV y vamos a importarlos tambien con json y XML
+
 #Paso de enfermedades y sedentarismo a data frame para hacer el join
 enfermedades <- data.frame(enfermedades)
 sedentarismo <-data.frame(sedentarismo)
 
 #Cambiamos la columna de Total de str a numeric
-sedentarismo<- sedentarismo%>%
-  transmute(Sexo, Comunidades.y.Ciudades.Autónomas,Sí.o.no, Total = as.numeric(Total))
+#sedentarismo<- sedentarismo%>%
+#  transmute(Sexo, Comunidades.y.Ciudades.Autónomas,Sí.o.no, Total = as.numeric(Total))
 
-enfermedades<- enfermedades%>%
-  transmute(Sexo, Comunidades.y.Ciudades.Autónomas, Enfermedades, Sí.o.no, Total = as.numeric(Total))
+#enfermedades<- enfermedades%>%
+#  transmute(Sexo, Comunidades.y.Ciudades.Autónomas, Enfermedades, Sí.o.no, Total = as.numeric(Total))
 
 #hacemos un full join con los data frames anteriores a partir de las columnas Sexo, Comunidades.y.Ciudades.Autónomas y Si.o.no
 data <- full_join(x = enfermedades, 
@@ -75,8 +77,9 @@ ggplot(data = data_soloSi, aes(x = Total.x, y = Total.y))+
   labs(x = "Enfermos", y = "Sedentarios")
 
 
+
 # Load the library
-library(leaflet)
+#library(leaflet)
 
 # Note: if you do not already installed it, install it with:
 # install.packages("leaflet")
@@ -93,9 +96,9 @@ m <- leaflet() %>%
 m
 
 enfermedades_cronicas
-data5 <- data.frame(enfermedades_cronicas,sedentarismo)
+data5 <- data.frame(enfermedades,sedentarismo)
 
-ggplot(data = data5, aes(x = enfermedades_cronicas, y = sedentarismo))+
+ggplot(data = data5, aes(x = enfermedades, y = sedentarismo))+
   geom_point(aes(colour = "Comunidades y Ciudades Autónomas"))+
   geom_smooth(colour = "red")+
   labs(x = "Enfermedades", y = "Sendentarismo")

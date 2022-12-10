@@ -1,0 +1,1801 @@
+[{"Nombre":"Ambos sexos, Total, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":349, "Nombre":"Total Nacional", "Codigo":"NAC"}
+, "Nombre":"Total", "Codigo":"00"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Ambos sexos, Total, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":349, "Nombre":"Total Nacional", "Codigo":"NAC"}
+, "Nombre":"Total", "Codigo":"00"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":36.41}
+]
+}
+,{"Nombre":"Ambos sexos, Total, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":349, "Nombre":"Total Nacional", "Codigo":"NAC"}
+, "Nombre":"Total", "Codigo":"00"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":63.59}
+]
+}
+,{"Nombre":"Ambos sexos, Andalucía, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Andalucía", "Codigo":"01"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Ambos sexos, Andalucía, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Andalucía", "Codigo":"01"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":40.06}
+]
+}
+,{"Nombre":"Ambos sexos, Andalucía, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Andalucía", "Codigo":"01"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":59.94}
+]
+}
+,{"Nombre":"Ambos sexos, Aragón, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Aragón", "Codigo":"02"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Ambos sexos, Aragón, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Aragón", "Codigo":"02"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":30.28}
+]
+}
+,{"Nombre":"Ambos sexos, Aragón, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Aragón", "Codigo":"02"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":69.72}
+]
+}
+,{"Nombre":"Ambos sexos, Asturias (Principado de), TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Asturias (Principado de)", "Codigo":"03"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Ambos sexos, Asturias (Principado de), Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Asturias (Principado de)", "Codigo":"03"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":20.87}
+]
+}
+,{"Nombre":"Ambos sexos, Asturias (Principado de), No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Asturias (Principado de)", "Codigo":"03"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":79.13}
+]
+}
+,{"Nombre":"Ambos sexos, Balears (Illes), TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Balears (Illes)", "Codigo":"04"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Ambos sexos, Balears (Illes), Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Balears (Illes)", "Codigo":"04"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":49.73}
+]
+}
+,{"Nombre":"Ambos sexos, Balears (Illes), No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Balears (Illes)", "Codigo":"04"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":50.27}
+]
+}
+,{"Nombre":"Ambos sexos, Canarias, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Canarias", "Codigo":"05"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Ambos sexos, Canarias, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Canarias", "Codigo":"05"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":43.51}
+]
+}
+,{"Nombre":"Ambos sexos, Canarias, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Canarias", "Codigo":"05"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":56.49}
+]
+}
+,{"Nombre":"Ambos sexos, Cantabria, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Cantabria", "Codigo":"06"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Ambos sexos, Cantabria, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Cantabria", "Codigo":"06"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":60.42}
+]
+}
+,{"Nombre":"Ambos sexos, Cantabria, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Cantabria", "Codigo":"06"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":39.58}
+]
+}
+,{"Nombre":"Ambos sexos, Castilla y León, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Castilla y León", "Codigo":"07"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Ambos sexos, Castilla y León, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Castilla y León", "Codigo":"07"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":33.02}
+]
+}
+,{"Nombre":"Ambos sexos, Castilla y León, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Castilla y León", "Codigo":"07"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":66.98}
+]
+}
+,{"Nombre":"Ambos sexos, Castilla-La Mancha, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Castilla-La Mancha", "Codigo":"08"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Ambos sexos, Castilla-La Mancha, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Castilla-La Mancha", "Codigo":"08"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":39.45}
+]
+}
+,{"Nombre":"Ambos sexos, Castilla-La Mancha, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Castilla-La Mancha", "Codigo":"08"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":60.55}
+]
+}
+,{"Nombre":"Ambos sexos, Cataluña, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Cataluña", "Codigo":"09"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Ambos sexos, Cataluña, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Cataluña", "Codigo":"09"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":38.14}
+]
+}
+,{"Nombre":"Ambos sexos, Cataluña, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Cataluña", "Codigo":"09"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":61.86}
+]
+}
+,{"Nombre":"Ambos sexos, Comunitat Valenciana, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Comunitat Valenciana", "Codigo":"10"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Ambos sexos, Comunitat Valenciana, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Comunitat Valenciana", "Codigo":"10"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":24.94}
+]
+}
+,{"Nombre":"Ambos sexos, Comunitat Valenciana, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Comunitat Valenciana", "Codigo":"10"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":75.06}
+]
+}
+,{"Nombre":"Ambos sexos, Extremadura, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Extremadura", "Codigo":"11"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Ambos sexos, Extremadura, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Extremadura", "Codigo":"11"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":22.11}
+]
+}
+,{"Nombre":"Ambos sexos, Extremadura, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Extremadura", "Codigo":"11"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":77.89}
+]
+}
+,{"Nombre":"Ambos sexos, Galicia, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Galicia", "Codigo":"12"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Ambos sexos, Galicia, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Galicia", "Codigo":"12"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":41.3}
+]
+}
+,{"Nombre":"Ambos sexos, Galicia, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Galicia", "Codigo":"12"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":58.7}
+]
+}
+,{"Nombre":"Ambos sexos, Madrid (Comunidad de), TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Madrid (Comunidad de)", "Codigo":"13"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Ambos sexos, Madrid (Comunidad de), Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Madrid (Comunidad de)", "Codigo":"13"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":39.17}
+]
+}
+,{"Nombre":"Ambos sexos, Madrid (Comunidad de), No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Madrid (Comunidad de)", "Codigo":"13"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":60.83}
+]
+}
+,{"Nombre":"Ambos sexos, Murcia (Región de), TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Murcia (Región de)", "Codigo":"14"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Ambos sexos, Murcia (Región de), Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Murcia (Región de)", "Codigo":"14"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":39.65}
+]
+}
+,{"Nombre":"Ambos sexos, Murcia (Región de), No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Murcia (Región de)", "Codigo":"14"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":60.35}
+]
+}
+,{"Nombre":"Ambos sexos, Navarra (Comunidad Foral de), TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Navarra (Comunidad Foral de)", "Codigo":"15"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Ambos sexos, Navarra (Comunidad Foral de), Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Navarra (Comunidad Foral de)", "Codigo":"15"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":23.32}
+]
+}
+,{"Nombre":"Ambos sexos, Navarra (Comunidad Foral de), No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Navarra (Comunidad Foral de)", "Codigo":"15"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":76.68}
+]
+}
+,{"Nombre":"Ambos sexos, País Vasco, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"País Vasco", "Codigo":"16"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Ambos sexos, País Vasco, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"País Vasco", "Codigo":"16"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":28.43}
+]
+}
+,{"Nombre":"Ambos sexos, País Vasco, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"País Vasco", "Codigo":"16"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":71.57}
+]
+}
+,{"Nombre":"Ambos sexos, Rioja (La), TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Rioja (La)", "Codigo":"17"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Ambos sexos, Rioja (La), Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Rioja (La)", "Codigo":"17"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":24.88}
+]
+}
+,{"Nombre":"Ambos sexos, Rioja (La), No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Rioja (La)", "Codigo":"17"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":75.12}
+]
+}
+,{"Nombre":"Ambos sexos, Ceuta (Ciudad Autónoma de), TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Ceuta (Ciudad Autónoma de)", "Codigo":"18"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Ambos sexos, Ceuta (Ciudad Autónoma de), Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Ceuta (Ciudad Autónoma de)", "Codigo":"18"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":61.48}
+]
+}
+,{"Nombre":"Ambos sexos, Ceuta (Ciudad Autónoma de), No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Ceuta (Ciudad Autónoma de)", "Codigo":"18"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":38.52}
+]
+}
+,{"Nombre":"Ambos sexos, Melilla (Ciudad Autónoma de), TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Melilla (Ciudad Autónoma de)", "Codigo":"19"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Ambos sexos, Melilla (Ciudad Autónoma de), Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Melilla (Ciudad Autónoma de)", "Codigo":"19"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":41.86}
+]
+}
+,{"Nombre":"Ambos sexos, Melilla (Ciudad Autónoma de), No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Melilla (Ciudad Autónoma de)", "Codigo":"19"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":58.14}
+]
+}
+,{"Nombre":"Hombres, Total, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":349, "Nombre":"Total Nacional", "Codigo":"NAC"}
+, "Nombre":"Total", "Codigo":"00"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Hombres, Total, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":349, "Nombre":"Total Nacional", "Codigo":"NAC"}
+, "Nombre":"Total", "Codigo":"00"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":32.27}
+]
+}
+,{"Nombre":"Hombres, Total, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":349, "Nombre":"Total Nacional", "Codigo":"NAC"}
+, "Nombre":"Total", "Codigo":"00"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":67.73}
+]
+}
+,{"Nombre":"Hombres, Andalucía, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Andalucía", "Codigo":"01"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Hombres, Andalucía, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Andalucía", "Codigo":"01"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":34.37}
+]
+}
+,{"Nombre":"Hombres, Andalucía, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Andalucía", "Codigo":"01"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":65.63}
+]
+}
+,{"Nombre":"Hombres, Aragón, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Aragón", "Codigo":"02"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Hombres, Aragón, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Aragón", "Codigo":"02"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":30.57}
+]
+}
+,{"Nombre":"Hombres, Aragón, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Aragón", "Codigo":"02"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":69.43}
+]
+}
+,{"Nombre":"Hombres, Asturias (Principado de), TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Asturias (Principado de)", "Codigo":"03"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Hombres, Asturias (Principado de), Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Asturias (Principado de)", "Codigo":"03"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":20.73}
+]
+}
+,{"Nombre":"Hombres, Asturias (Principado de), No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Asturias (Principado de)", "Codigo":"03"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":79.27}
+]
+}
+,{"Nombre":"Hombres, Balears (Illes), TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Balears (Illes)", "Codigo":"04"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Hombres, Balears (Illes), Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Balears (Illes)", "Codigo":"04"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":48.55}
+]
+}
+,{"Nombre":"Hombres, Balears (Illes), No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Balears (Illes)", "Codigo":"04"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":51.45}
+]
+}
+,{"Nombre":"Hombres, Canarias, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Canarias", "Codigo":"05"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Hombres, Canarias, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Canarias", "Codigo":"05"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":40.98}
+]
+}
+,{"Nombre":"Hombres, Canarias, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Canarias", "Codigo":"05"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":59.02}
+]
+}
+,{"Nombre":"Hombres, Cantabria, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Cantabria", "Codigo":"06"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Hombres, Cantabria, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Cantabria", "Codigo":"06"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":52.12}
+]
+}
+,{"Nombre":"Hombres, Cantabria, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Cantabria", "Codigo":"06"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":47.88}
+]
+}
+,{"Nombre":"Hombres, Castilla y León, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Castilla y León", "Codigo":"07"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Hombres, Castilla y León, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Castilla y León", "Codigo":"07"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":32.37}
+]
+}
+,{"Nombre":"Hombres, Castilla y León, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Castilla y León", "Codigo":"07"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":67.63}
+]
+}
+,{"Nombre":"Hombres, Castilla-La Mancha, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Castilla-La Mancha", "Codigo":"08"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Hombres, Castilla-La Mancha, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Castilla-La Mancha", "Codigo":"08"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":34.96}
+]
+}
+,{"Nombre":"Hombres, Castilla-La Mancha, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Castilla-La Mancha", "Codigo":"08"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":65.04}
+]
+}
+,{"Nombre":"Hombres, Cataluña, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Cataluña", "Codigo":"09"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Hombres, Cataluña, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Cataluña", "Codigo":"09"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":33.96}
+]
+}
+,{"Nombre":"Hombres, Cataluña, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Cataluña", "Codigo":"09"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":66.04}
+]
+}
+,{"Nombre":"Hombres, Comunitat Valenciana, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Comunitat Valenciana", "Codigo":"10"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Hombres, Comunitat Valenciana, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Comunitat Valenciana", "Codigo":"10"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":21.75}
+]
+}
+,{"Nombre":"Hombres, Comunitat Valenciana, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Comunitat Valenciana", "Codigo":"10"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":78.25}
+]
+}
+,{"Nombre":"Hombres, Extremadura, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Extremadura", "Codigo":"11"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Hombres, Extremadura, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Extremadura", "Codigo":"11"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":22.11}
+]
+}
+,{"Nombre":"Hombres, Extremadura, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Extremadura", "Codigo":"11"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":77.89}
+]
+}
+,{"Nombre":"Hombres, Galicia, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Galicia", "Codigo":"12"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Hombres, Galicia, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Galicia", "Codigo":"12"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":38.73}
+]
+}
+,{"Nombre":"Hombres, Galicia, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Galicia", "Codigo":"12"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":61.27}
+]
+}
+,{"Nombre":"Hombres, Madrid (Comunidad de), TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Madrid (Comunidad de)", "Codigo":"13"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Hombres, Madrid (Comunidad de), Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Madrid (Comunidad de)", "Codigo":"13"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":30.61}
+]
+}
+,{"Nombre":"Hombres, Madrid (Comunidad de), No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Madrid (Comunidad de)", "Codigo":"13"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":69.39}
+]
+}
+,{"Nombre":"Hombres, Murcia (Región de), TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Murcia (Región de)", "Codigo":"14"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Hombres, Murcia (Región de), Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Murcia (Región de)", "Codigo":"14"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":35.47}
+]
+}
+,{"Nombre":"Hombres, Murcia (Región de), No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Murcia (Región de)", "Codigo":"14"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":64.53}
+]
+}
+,{"Nombre":"Hombres, Navarra (Comunidad Foral de), TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Navarra (Comunidad Foral de)", "Codigo":"15"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Hombres, Navarra (Comunidad Foral de), Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Navarra (Comunidad Foral de)", "Codigo":"15"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":19.17}
+]
+}
+,{"Nombre":"Hombres, Navarra (Comunidad Foral de), No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Navarra (Comunidad Foral de)", "Codigo":"15"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":80.83}
+]
+}
+,{"Nombre":"Hombres, País Vasco, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"País Vasco", "Codigo":"16"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Hombres, País Vasco, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"País Vasco", "Codigo":"16"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":27.07}
+]
+}
+,{"Nombre":"Hombres, País Vasco, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"País Vasco", "Codigo":"16"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":72.93}
+]
+}
+,{"Nombre":"Hombres, Rioja (La), TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Rioja (La)", "Codigo":"17"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Hombres, Rioja (La), Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Rioja (La)", "Codigo":"17"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":22.54}
+]
+}
+,{"Nombre":"Hombres, Rioja (La), No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Rioja (La)", "Codigo":"17"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":77.46}
+]
+}
+,{"Nombre":"Hombres, Ceuta (Ciudad Autónoma de), TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Ceuta (Ciudad Autónoma de)", "Codigo":"18"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Hombres, Ceuta (Ciudad Autónoma de), Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Ceuta (Ciudad Autónoma de)", "Codigo":"18"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":48.53}
+]
+}
+,{"Nombre":"Hombres, Ceuta (Ciudad Autónoma de), No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Ceuta (Ciudad Autónoma de)", "Codigo":"18"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":51.47}
+]
+}
+,{"Nombre":"Hombres, Melilla (Ciudad Autónoma de), TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Melilla (Ciudad Autónoma de)", "Codigo":"19"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Hombres, Melilla (Ciudad Autónoma de), Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Melilla (Ciudad Autónoma de)", "Codigo":"19"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":32.66}
+]
+}
+,{"Nombre":"Hombres, Melilla (Ciudad Autónoma de), No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Melilla (Ciudad Autónoma de)", "Codigo":"19"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":67.34}
+]
+}
+,{"Nombre":"Mujeres, Total, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":349, "Nombre":"Total Nacional", "Codigo":"NAC"}
+, "Nombre":"Total", "Codigo":"00"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Mujeres, Total, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":349, "Nombre":"Total Nacional", "Codigo":"NAC"}
+, "Nombre":"Total", "Codigo":"00"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":40.34}
+]
+}
+,{"Nombre":"Mujeres, Total, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":349, "Nombre":"Total Nacional", "Codigo":"NAC"}
+, "Nombre":"Total", "Codigo":"00"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":59.66}
+]
+}
+,{"Nombre":"Mujeres, Andalucía, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Andalucía", "Codigo":"01"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Mujeres, Andalucía, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Andalucía", "Codigo":"01"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":45.51}
+]
+}
+,{"Nombre":"Mujeres, Andalucía, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Andalucía", "Codigo":"01"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":54.49}
+]
+}
+,{"Nombre":"Mujeres, Aragón, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Aragón", "Codigo":"02"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Mujeres, Aragón, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Aragón", "Codigo":"02"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":29.99}
+]
+}
+,{"Nombre":"Mujeres, Aragón, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Aragón", "Codigo":"02"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":70.01}
+]
+}
+,{"Nombre":"Mujeres, Asturias (Principado de), TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Asturias (Principado de)", "Codigo":"03"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Mujeres, Asturias (Principado de), Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Asturias (Principado de)", "Codigo":"03"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":20.99}
+]
+}
+,{"Nombre":"Mujeres, Asturias (Principado de), No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Asturias (Principado de)", "Codigo":"03"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":79.01}
+]
+}
+,{"Nombre":"Mujeres, Balears (Illes), TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Balears (Illes)", "Codigo":"04"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Mujeres, Balears (Illes), Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Balears (Illes)", "Codigo":"04"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":50.9}
+]
+}
+,{"Nombre":"Mujeres, Balears (Illes), No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Balears (Illes)", "Codigo":"04"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":49.1}
+]
+}
+,{"Nombre":"Mujeres, Canarias, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Canarias", "Codigo":"05"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Mujeres, Canarias, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Canarias", "Codigo":"05"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":45.96}
+]
+}
+,{"Nombre":"Mujeres, Canarias, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Canarias", "Codigo":"05"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":54.04}
+]
+}
+,{"Nombre":"Mujeres, Cantabria, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Cantabria", "Codigo":"06"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Mujeres, Cantabria, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Cantabria", "Codigo":"06"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":68.2}
+]
+}
+,{"Nombre":"Mujeres, Cantabria, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Cantabria", "Codigo":"06"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":31.8}
+]
+}
+,{"Nombre":"Mujeres, Castilla y León, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Castilla y León", "Codigo":"07"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Mujeres, Castilla y León, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Castilla y León", "Codigo":"07"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":33.64}
+]
+}
+,{"Nombre":"Mujeres, Castilla y León, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Castilla y León", "Codigo":"07"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":66.36}
+]
+}
+,{"Nombre":"Mujeres, Castilla-La Mancha, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Castilla-La Mancha", "Codigo":"08"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Mujeres, Castilla-La Mancha, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Castilla-La Mancha", "Codigo":"08"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":43.96}
+]
+}
+,{"Nombre":"Mujeres, Castilla-La Mancha, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Castilla-La Mancha", "Codigo":"08"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":56.04}
+]
+}
+,{"Nombre":"Mujeres, Cataluña, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Cataluña", "Codigo":"09"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Mujeres, Cataluña, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Cataluña", "Codigo":"09"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":42.09}
+]
+}
+,{"Nombre":"Mujeres, Cataluña, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Cataluña", "Codigo":"09"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":57.91}
+]
+}
+,{"Nombre":"Mujeres, Comunitat Valenciana, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Comunitat Valenciana", "Codigo":"10"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Mujeres, Comunitat Valenciana, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Comunitat Valenciana", "Codigo":"10"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":27.99}
+]
+}
+,{"Nombre":"Mujeres, Comunitat Valenciana, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Comunitat Valenciana", "Codigo":"10"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":72.01}
+]
+}
+,{"Nombre":"Mujeres, Extremadura, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Extremadura", "Codigo":"11"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Mujeres, Extremadura, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Extremadura", "Codigo":"11"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":22.11}
+]
+}
+,{"Nombre":"Mujeres, Extremadura, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Extremadura", "Codigo":"11"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":77.89}
+]
+}
+,{"Nombre":"Mujeres, Galicia, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Galicia", "Codigo":"12"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Mujeres, Galicia, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Galicia", "Codigo":"12"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":43.66}
+]
+}
+,{"Nombre":"Mujeres, Galicia, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Galicia", "Codigo":"12"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":56.34}
+]
+}
+,{"Nombre":"Mujeres, Madrid (Comunidad de), TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Madrid (Comunidad de)", "Codigo":"13"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Mujeres, Madrid (Comunidad de), Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Madrid (Comunidad de)", "Codigo":"13"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":46.89}
+]
+}
+,{"Nombre":"Mujeres, Madrid (Comunidad de), No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Madrid (Comunidad de)", "Codigo":"13"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":53.11}
+]
+}
+,{"Nombre":"Mujeres, Murcia (Región de), TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Murcia (Región de)", "Codigo":"14"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Mujeres, Murcia (Región de), Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Murcia (Región de)", "Codigo":"14"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":43.79}
+]
+}
+,{"Nombre":"Mujeres, Murcia (Región de), No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Murcia (Región de)", "Codigo":"14"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":56.21}
+]
+}
+,{"Nombre":"Mujeres, Navarra (Comunidad Foral de), TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Navarra (Comunidad Foral de)", "Codigo":"15"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Mujeres, Navarra (Comunidad Foral de), Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Navarra (Comunidad Foral de)", "Codigo":"15"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":27.36}
+]
+}
+,{"Nombre":"Mujeres, Navarra (Comunidad Foral de), No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Navarra (Comunidad Foral de)", "Codigo":"15"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":72.64}
+]
+}
+,{"Nombre":"Mujeres, País Vasco, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"País Vasco", "Codigo":"16"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Mujeres, País Vasco, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"País Vasco", "Codigo":"16"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":29.68}
+]
+}
+,{"Nombre":"Mujeres, País Vasco, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"País Vasco", "Codigo":"16"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":70.32}
+]
+}
+,{"Nombre":"Mujeres, Rioja (La), TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Rioja (La)", "Codigo":"17"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Mujeres, Rioja (La), Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Rioja (La)", "Codigo":"17"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":27.13}
+]
+}
+,{"Nombre":"Mujeres, Rioja (La), No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Rioja (La)", "Codigo":"17"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":72.87}
+]
+}
+,{"Nombre":"Mujeres, Ceuta (Ciudad Autónoma de), TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Ceuta (Ciudad Autónoma de)", "Codigo":"18"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Mujeres, Ceuta (Ciudad Autónoma de), Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Ceuta (Ciudad Autónoma de)", "Codigo":"18"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":74.59}
+]
+}
+,{"Nombre":"Mujeres, Ceuta (Ciudad Autónoma de), No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Ceuta (Ciudad Autónoma de)", "Codigo":"18"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":25.41}
+]
+}
+,{"Nombre":"Mujeres, Melilla (Ciudad Autónoma de), TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Melilla (Ciudad Autónoma de)", "Codigo":"19"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Mujeres, Melilla (Ciudad Autónoma de), Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Melilla (Ciudad Autónoma de)", "Codigo":"19"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":50.95}
+]
+}
+,{"Nombre":"Mujeres, Melilla (Ciudad Autónoma de), No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Melilla (Ciudad Autónoma de)", "Codigo":"19"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":49.05}
+]
+}
+]
