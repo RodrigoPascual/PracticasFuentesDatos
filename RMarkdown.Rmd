@@ -33,18 +33,33 @@ library(ggplot2)
 library(forcats)
 library(hrbrthemes)
 library(viridis)
-library(leaflet)
+library(rjson)
+library(XML)
 ```
 
 
 
 # Resultados y Analisis de los resultados
 presentando las dos tablas con las cual vamos a sacar los resultados
+Datos importados por CSV
 
 ```{r}
 enfermedades <- read_delim(file = "input/enfermedades_cronicas1.csv",delim = ";",show_col_types = FALSE)
 sedentarismo <- read_delim(file = "input/sedentarismo.csv",delim = ";",show_col_types = FALSE)
 
+```
+
+Datos importados por JSON
+```{r}
+enfermedades_json <- fromJSON(file = "input/enfermedades_cronicas1.json")
+sedentarismo_json <- fromJSON(file = "input/sedentarismo.json")
+```
+
+
+Datos importados por XML
+```{r}
+enfermedades_xml <- xmlParse(file="input/enfermedades_cronicas1.xml")
+sedentarismo_xml <- xmlParse(file="input/sedentarismo.xml")
 ```
 
 PIMERA GRAFICA
