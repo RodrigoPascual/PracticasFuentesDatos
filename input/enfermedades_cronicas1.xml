@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <dcat:Dataset rdf:about="https://datos.gob.es/catalogo/ea0010587-problemas-o-enfermedades-cronicas-o-de-larga-evolucion-padecidas-en-los-ultimos-12-meses-y-diagnosticadas-por-un-medico-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p04-l0-02016-px">
+    <dcat:keyword xml:lang="en">Urinary incontinence or problems with urine control</dcat:keyword>
+    <dcat:keyword xml:lang="es">Problemas de riñón</dcat:keyword>
+    <dcat:keyword xml:lang="en">sex</dcat:keyword>
+    <dcat:keyword xml:lang="en">Cataluña</dcat:keyword>
+    <dct:language>es</dct:language>
+    <dcat:keyword xml:lang="en">Asturias (Principado de)</dcat:keyword>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://datos.gob.es/catalogo/ea0010587-problemas-o-enfermedades-cronicas-o-de-larga-evolucion-padecidas-en-los-ultimos-12-meses-y-diagnosticadas-por-un-medico-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p04-l0-02016-px/resource/816a8452-3903-4f37-b581-1c85559571ec">
+        <dct:title xml:lang="en">Json</dct:title>
+        <dct:title xml:lang="es">Json</dct:title>
+        <dct:format rdf:resource="https://datos.gob.es/catalogo/ea0010587-problemas-o-enfermedades-cronicas-o-de-larga-evolucion-padecidas-en-los-ultimos-12-meses-y-diagnosticadas-por-un-medico-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p04-l0-02016-px/resource/816a8452-3903-4f37-b581-1c85559571ec/format"/>
+        <dcat:accessURL>https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/47669?tip=AM</dcat:accessURL>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Canarias"/>
+    <dcat:keyword xml:lang="es">Estreñimiento crónico</dcat:keyword>
+    <dct:description xml:lang="en">Table of INEBase
+Chronic problems or diseases or of long evolution in the last 12 months and diagnosed by a doctor by sex and Autonomous Community. Population aged 15 years old and over. National. European Health Survey</dct:description>
+    <dcat:keyword xml:lang="es">Ictus (embolia infarto cerebral hemorragia cerebral)</dcat:keyword>
+    <dcat:keyword xml:lang="es">enfermedades</dcat:keyword>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://datos.gob.es/catalogo/ea0010587-problemas-o-enfermedades-cronicas-o-de-larga-evolucion-padecidas-en-los-ultimos-12-meses-y-diagnosticadas-por-un-medico-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p04-l0-02016-px/resource/5f1dabcb-efcf-4558-a3ab-d5782d821741">
+        <dct:title xml:lang="es">Texto plano: separado por ,</dct:title>
+        <dcat:accessURL>https://www.ine.es/jaxi/files/tpx/csv_c/47669.csv</dcat:accessURL>
+        <dct:format rdf:resource="https://datos.gob.es/catalogo/ea0010587-problemas-o-enfermedades-cronicas-o-de-larga-evolucion-padecidas-en-los-ultimos-12-meses-y-diagnosticadas-por-un-medico-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p04-l0-02016-px/resource/5f1dabcb-efcf-4558-a3ab-d5782d821741/format"/>
+        <dct:title xml:lang="en">Plain Text: separated by comma</dct:title>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:keyword xml:lang="en">Chronic bronchitis emphysema chronic obstructive pulmonary disease (COPD)</dcat:keyword>
+    <dcat:keyword xml:lang="es">Migraña o dolor de cabeza frecuente</dcat:keyword>
+    <dcat:keyword xml:lang="en">Extremadura</dcat:keyword>
+    <dcat:keyword xml:lang="en">Both sexes</dcat:keyword>
+    <dcat:keyword xml:lang="es">Artrosis (excluyendo artritis)</dcat:keyword>
+    <dct:identifier>urn:ine:es:TABLA:PX:t15:p420:a2019:p04:02016</dct:identifier>
+    <dcat:keyword xml:lang="en">Ictus (embolism cerebral infarct cerebral haemorrhage)</dcat:keyword>
+    <dcat:keyword xml:lang="es">Problemas crónicos de piel</dcat:keyword>
+    <dcat:keyword xml:lang="es">Cirrosis disfunción hepática</dcat:keyword>
+    <dcat:keyword xml:lang="en">Men</dcat:keyword>
+    <dcat:keyword xml:lang="en">Melilla (Ciudad Autónoma de)</dcat:keyword>
+    <dcat:keyword xml:lang="es">Estado de salud y factores condicionantes</dcat:keyword>
+    <dcat:keyword xml:lang="en">Women</dcat:keyword>
+    <dcat:keyword xml:lang="es">Osteoporosis</dcat:keyword>
+    <dcat:keyword xml:lang="es">Alergia crónica como rinitis conjuntivitis o dermatitis alérgica alergia alimentaria o de otro tipo</dcat:keyword>
+    <dcat:keyword xml:lang="es">Problemas del periodo menopáusico (solo mujeres)</dcat:keyword>
+    <dcat:keyword xml:lang="en">Autonomous Community</dcat:keyword>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Galicia"/>
+    <dct:title xml:lang="en">Chronic problems or diseases or of long evolution in the last 12 months and diagnosed by a doctor by sex and Autonomous Community. Population aged 15 years old and over. (API identifier: /t15/p420/a2019/p04/l0/02016.px)</dct:title>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Ceuta"/>
+    <dcat:keyword xml:lang="en">Thyroid problems</dcat:keyword>
+    <dcat:keyword xml:lang="en">País Vasco</dcat:keyword>
+    <dcat:keyword xml:lang="es">Sí</dcat:keyword>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Principado-Asturias"/>
+    <dcat:keyword xml:lang="en">Murcia (Región de)</dcat:keyword>
+    <dcat:keyword xml:lang="en">Stomach or duodenum ulcer</dcat:keyword>
+    <dcat:keyword xml:lang="en">Balears (Illes)</dcat:keyword>
+    <dcat:keyword xml:lang="es">Varices en las piernas</dcat:keyword>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Castilla-La-Mancha"/>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Andalucia"/>
+    <dcat:keyword xml:lang="en">diseases</dcat:keyword>
+    <dcat:keyword xml:lang="es">Salud</dcat:keyword>
+    <dcat:keyword xml:lang="es">sí o no</dcat:keyword>
+    <dcat:keyword xml:lang="en">Navarra (Comunidad Foral de)</dcat:keyword>
+    <dcat:keyword xml:lang="en">Myocardial infarction</dcat:keyword>
+    <dcat:keyword xml:lang="es">Comunidad autónoma</dcat:keyword>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"/>
+    <dcat:keyword xml:lang="es">Dolor de espalda crónico (lumbar)</dcat:keyword>
+    <dcat:keyword xml:lang="es">Hombres</dcat:keyword>
+    <dcat:keyword xml:lang="en">Chronic skin problems</dcat:keyword>
+    <dcat:keyword xml:lang="en">Aragón</dcat:keyword>
+    <dct:title xml:lang="es">Problemas o enfermedades crónicas o de larga evolución padecidas en los últimos 12 meses y diagnosticadas por un médico según sexo y comunidad autónoma. Población de 15 y más años. (Identificador API: /t15/p420/a2019/p04/l0/02016.px)</dct:title>
+    <dcat:keyword xml:lang="en">Asthma (included allergic asthma)</dcat:keyword>
+    <dcat:keyword xml:lang="es">Colesterol alto</dcat:keyword>
+    <dcat:keyword xml:lang="en">Chronic back pain (lower back)</dcat:keyword>
+    <dcat:keyword xml:lang="en">Kidney problems</dcat:keyword>
+    <dcat:keyword xml:lang="en">Chronic back pain (neck)</dcat:keyword>
+    <dcat:keyword xml:lang="es">Lesiones o defectos permanentes causados por un accidente</dcat:keyword>
+    <dcat:keyword xml:lang="es">Dolor de espalda crónico (cervical)</dcat:keyword>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://datos.gob.es/catalogo/ea0010587-problemas-o-enfermedades-cronicas-o-de-larga-evolucion-padecidas-en-los-ultimos-12-meses-y-diagnosticadas-por-un-medico-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p04-l0-02016-px/resource/b50cf0fd-2b4f-424f-b41c-267d326b7b5a">
+        <dcat:accessURL>https://www.ine.es/jaxi/files/tpx/xls/47669.xls</dcat:accessURL>
+        <dct:format rdf:resource="https://datos.gob.es/catalogo/ea0010587-problemas-o-enfermedades-cronicas-o-de-larga-evolucion-padecidas-en-los-ultimos-12-meses-y-diagnosticadas-por-un-medico-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p04-l0-02016-px/resource/b50cf0fd-2b4f-424f-b41c-267d326b7b5a/format"/>
+        <dct:title xml:lang="en">Excel: XLS extension</dct:title>
+        <dct:title xml:lang="es">Excel: Extensión XLS</dct:title>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:keyword xml:lang="en">European Health Survey</dcat:keyword>
+    <dcat:keyword xml:lang="en">Madrid (Comunidad de)</dcat:keyword>
+    <dcat:keyword xml:lang="en">Castilla y León</dcat:keyword>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Illes-Balears"/>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://datos.gob.es/catalogo/ea0010587-problemas-o-enfermedades-cronicas-o-de-larga-evolucion-padecidas-en-los-ultimos-12-meses-y-diagnosticadas-por-un-medico-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p04-l0-02016-px/resource/a159cedf-04a8-41e0-b97a-3b34275f9be1">
+        <dct:title xml:lang="en">CSV: Separated by ;</dct:title>
+        <dct:format rdf:resource="https://datos.gob.es/catalogo/ea0010587-problemas-o-enfermedades-cronicas-o-de-larga-evolucion-padecidas-en-los-ultimos-12-meses-y-diagnosticadas-por-un-medico-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p04-l0-02016-px/resource/a159cedf-04a8-41e0-b97a-3b34275f9be1/format"/>
+        <dcat:accessURL>https://www.ine.es/jaxi/files/tpx/csv_bdsc/47669.csv</dcat:accessURL>
+        <dct:title xml:lang="es">CSV: separado por ;</dct:title>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunitat-Valenciana"/>
+    <dcat:keyword xml:lang="en">Comunitat Valenciana</dcat:keyword>
+    <dcat:keyword xml:lang="es">Angina de pecho enfermedad coronaria</dcat:keyword>
+    <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+    <dcat:keyword xml:lang="en">Andalucía</dcat:keyword>
+    <dcat:keyword xml:lang="en">Malignant tumours</dcat:keyword>
+    <dcat:keyword xml:lang="es">TOTAL</dcat:keyword>
+    <dcat:keyword xml:lang="es">Depresión</dcat:keyword>
+    <dcat:keyword xml:lang="es">Encuesta Europea de Salud</dcat:keyword>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://datos.gob.es/catalogo/ea0010587-problemas-o-enfermedades-cronicas-o-de-larga-evolucion-padecidas-en-los-ultimos-12-meses-y-diagnosticadas-por-un-medico-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p04-l0-02016-px/resource/9fcc8372-c874-4948-8511-2c62b9fdf840">
+        <dct:title xml:lang="en">Html</dct:title>
+        <dct:format rdf:resource="https://datos.gob.es/catalogo/ea0010587-problemas-o-enfermedades-cronicas-o-de-larga-evolucion-padecidas-en-los-ultimos-12-meses-y-diagnosticadas-por-un-medico-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p04-l0-02016-px/resource/9fcc8372-c874-4948-8511-2c62b9fdf840/format"/>
+        <dct:title xml:lang="es">Html</dct:title>
+        <dcat:accessURL>https://www.ine.es/jaxi/Tabla.htm?tpx=47669</dcat:accessURL>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:keyword xml:lang="es">Bronquitis crónica enfisema enfermedad pulmonar obstructiva crónica (EPOC)</dcat:keyword>
+    <dcat:keyword xml:lang="es">Hemorroides</dcat:keyword>
+    <dcat:keyword xml:lang="es">Mujeres</dcat:keyword>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Pais-Vasco"/>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://datos.gob.es/catalogo/ea0010587-problemas-o-enfermedades-cronicas-o-de-larga-evolucion-padecidas-en-los-ultimos-12-meses-y-diagnosticadas-por-un-medico-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p04-l0-02016-px/resource/7f27e0c4-241c-4272-8f0e-fa4fbb9f07b3">
+        <dct:title xml:lang="en">CSV: Tab Separated</dct:title>
+        <dct:format rdf:resource="https://datos.gob.es/catalogo/ea0010587-problemas-o-enfermedades-cronicas-o-de-larga-evolucion-padecidas-en-los-ultimos-12-meses-y-diagnosticadas-por-un-medico-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p04-l0-02016-px/resource/7f27e0c4-241c-4272-8f0e-fa4fbb9f07b3/format"/>
+        <dct:title xml:lang="es">CSV: separado por tabuladores</dct:title>
+        <dcat:accessURL>https://www.ine.es/jaxi/files/tpx/csv_bd/47669.csv</dcat:accessURL>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:keyword xml:lang="en">Cirrhosis of the liver liver failure</dcat:keyword>
+    <dcat:keyword xml:lang="es">Incontinencia urinaria o problemas de control de la orina</dcat:keyword>
+    <dcat:keyword xml:lang="es">sexo</dcat:keyword>
+    <dcat:keyword xml:lang="en">Statistics</dcat:keyword>
+    <dcat:keyword xml:lang="es">Estadísticas</dcat:keyword>
+    <dcat:keyword xml:lang="es">Tumores malignos</dcat:keyword>
+    <dcat:keyword xml:lang="en">Varicose veins in the legs</dcat:keyword>
+    <dct:publisher>
+      <skos:Concept rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0010587">
+        <skos:notation>EA0010587</skos:notation>
+        <skos:prefLabel>Instituto Nacional de Estadística</skos:prefLabel>
+      </skos:Concept>
+    </dct:publisher>
+    <dcat:keyword xml:lang="en">High blood pressure</dcat:keyword>
+    <dcat:keyword xml:lang="es">No</dcat:keyword>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Cataluna"/>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Melilla"/>
+    <dcat:keyword xml:lang="es">Ansiedad crónica</dcat:keyword>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/La-Rioja"/>
+    <dct:description xml:lang="es">Tabla de INEbase
+Problemas o enfermedades crónicas o de larga evolución padecidas en los últimos 12 meses y diagnosticadas por un médico según sexo y comunidad autónoma. Población de 15 y más años. Encuesta Europea de Salud</dct:description>
+    <dcat:keyword xml:lang="es">Diabetes</dcat:keyword>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://datos.gob.es/catalogo/ea0010587-problemas-o-enfermedades-cronicas-o-de-larga-evolucion-padecidas-en-los-ultimos-12-meses-y-diagnosticadas-por-un-medico-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p04-l0-02016-px/resource/780bd43f-45ae-4906-8e6b-a06157051b6b">
+        <dcat:accessURL>https://www.ine.es/jaxi/files/tpx/csv_sc/47669.csv</dcat:accessURL>
+        <dct:title xml:lang="es">Texto plano: separado por ;</dct:title>
+        <dct:format rdf:resource="https://datos.gob.es/catalogo/ea0010587-problemas-o-enfermedades-cronicas-o-de-larga-evolucion-padecidas-en-los-ultimos-12-meses-y-diagnosticadas-por-un-medico-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p04-l0-02016-px/resource/780bd43f-45ae-4906-8e6b-a06157051b6b/format"/>
+        <dct:title xml:lang="en">Plain Text: separated by semicolons</dct:title>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:keyword xml:lang="es">Otras enfermedades del corazón</dcat:keyword>
+    <dcat:keyword xml:lang="en">Other mental problems</dcat:keyword>
+    <dcat:keyword xml:lang="es">Asma (incluida asma alérgica)</dcat:keyword>
+    <dcat:keyword xml:lang="en">Permanent injuries or defects caused by an accident</dcat:keyword>
+    <dcat:keyword xml:lang="en">Cataracts</dcat:keyword>
+    <dcat:keyword xml:lang="en">Menopause problems (only women)</dcat:keyword>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Cantabria"/>
+    <dcat:keyword xml:lang="es">Cataratas</dcat:keyword>
+    <dcat:keyword xml:lang="es">Tensión alta</dcat:keyword>
+    <dcat:keyword xml:lang="en">Health</dcat:keyword>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://datos.gob.es/catalogo/ea0010587-problemas-o-enfermedades-cronicas-o-de-larga-evolucion-padecidas-en-los-ultimos-12-meses-y-diagnosticadas-por-un-medico-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p04-l0-02016-px/resource/35f8db87-2fa1-4111-aeaf-869d362149f0">
+        <dct:format rdf:resource="https://datos.gob.es/catalogo/ea0010587-problemas-o-enfermedades-cronicas-o-de-larga-evolucion-padecidas-en-los-ultimos-12-meses-y-diagnosticadas-por-un-medico-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p04-l0-02016-px/resource/35f8db87-2fa1-4111-aeaf-869d362149f0/format"/>
+        <dct:title xml:lang="es">Texto plano: separado por tabuladores</dct:title>
+        <dct:title xml:lang="en">Plain Text: separated by tab</dct:title>
+        <dcat:accessURL>https://www.ine.es/jaxi/files/tpx/csv/47669.csv</dcat:accessURL>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:keyword xml:lang="en">Arthrosis (excluding arthritis)</dcat:keyword>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-26T02:00:00+02:00</dct:modified>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Region-Murcia"/>
+    <dcat:keyword xml:lang="en">Prostate problems (only men)</dcat:keyword>
+    <dcat:keyword xml:lang="en">Rioja (La)</dcat:keyword>
+    <dcat:keyword xml:lang="en">Castilla-La Mancha</dcat:keyword>
+    <dcat:keyword xml:lang="es">Infarto de miocardio</dcat:keyword>
+    <dcat:keyword xml:lang="es">Problemas de tiroides</dcat:keyword>
+    <dcat:keyword xml:lang="en">Chronic anxiety</dcat:keyword>
+    <dcat:keyword xml:lang="en">State of health and conditioning factors</dcat:keyword>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Castilla-Leon"/>
+    <dct:language>en</dct:language>
+    <dcat:keyword xml:lang="en">Other heart diseases</dcat:keyword>
+    <dcat:keyword xml:lang="en">Chronic allergy such as rhinitis conjunctivitis or allergic dermatitis food alergy or of other type</dcat:keyword>
+    <dcat:keyword xml:lang="en">Migraines or frequent headaches</dcat:keyword>
+    <dct:references rdf:resource="https://www.ine.es/dyngs/IOE/es/operacion.htm?numinv=54088"/>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Aragon"/>
+    <dcat:keyword xml:lang="en">Angina pectoris heart disease</dcat:keyword>
+    <dcat:keyword xml:lang="es">Otros problemas mentales</dcat:keyword>
+    <dcat:keyword xml:lang="en">yes or no</dcat:keyword>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://datos.gob.es/catalogo/ea0010587-problemas-o-enfermedades-cronicas-o-de-larga-evolucion-padecidas-en-los-ultimos-12-meses-y-diagnosticadas-por-un-medico-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p04-l0-02016-px/resource/d81ab49f-db36-4c41-b4d6-8e1bf200f453">
+        <dct:format rdf:resource="https://datos.gob.es/catalogo/ea0010587-problemas-o-enfermedades-cronicas-o-de-larga-evolucion-padecidas-en-los-ultimos-12-meses-y-diagnosticadas-por-un-medico-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p04-l0-02016-px/resource/d81ab49f-db36-4c41-b4d6-8e1bf200f453/format"/>
+        <dct:title xml:lang="es">Pc-Axis</dct:title>
+        <dcat:accessURL>https://www.ine.es/jaxi/files/tpx/px/47669.px</dcat:accessURL>
+        <dct:title xml:lang="en">Pc-Axis</dct:title>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:keyword xml:lang="es">Problemas de próstata (solo hombres)</dcat:keyword>
+    <dct:conformsTo rdf:resource="https://www.ine.es/dynt3/metadatos/es/RespuestaDatos.htm?oe=54088"/>
+    <dcat:keyword xml:lang="en">Yes</dcat:keyword>
+    <dcat:keyword xml:lang="en">Total</dcat:keyword>
+    <dcat:keyword xml:lang="es">Ambos sexos</dcat:keyword>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Madrid"/>
+    <dcat:keyword xml:lang="en">Canarias</dcat:keyword>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://datos.gob.es/catalogo/ea0010587-problemas-o-enfermedades-cronicas-o-de-larga-evolucion-padecidas-en-los-ultimos-12-meses-y-diagnosticadas-por-un-medico-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p04-l0-02016-px/resource/b01aa0e0-0793-485e-a188-8a0661fffb6a">
+        <dct:title xml:lang="es">Excel: Extension XLSx</dct:title>
+        <dct:title xml:lang="en">Excel: XLSx extension</dct:title>
+        <dct:format rdf:resource="https://datos.gob.es/catalogo/ea0010587-problemas-o-enfermedades-cronicas-o-de-larga-evolucion-padecidas-en-los-ultimos-12-meses-y-diagnosticadas-por-un-medico-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p04-l0-02016-px/resource/b01aa0e0-0793-485e-a188-8a0661fffb6a/format"/>
+        <dcat:accessURL>https://www.ine.es/jaxi/files/tpx/xlsx/47669.xlsx</dcat:accessURL>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Extremadura"/>
+    <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Foral-Navarra"/>
+    <dcat:keyword xml:lang="en">Cantabria</dcat:keyword>
+    <dcat:keyword xml:lang="en">Galicia</dcat:keyword>
+    <dcat:keyword xml:lang="en">Depression</dcat:keyword>
+    <dcat:keyword xml:lang="en">Ceuta (Ciudad Autónoma de)</dcat:keyword>
+    <dcat:keyword xml:lang="en">Haemorroids</dcat:keyword>
+    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/salud"/>
+    <dcat:keyword xml:lang="en">Chronic constipation</dcat:keyword>
+    <dcat:keyword xml:lang="en">High cholesterol</dcat:keyword>
+    <dcat:keyword xml:lang="es">Úlcera de estómago o duodeno</dcat:keyword>
+  </dcat:Dataset>
+  <dct:IMT rdf:about="https://datos.gob.es/catalogo/ea0010587-problemas-o-enfermedades-cronicas-o-de-larga-evolucion-padecidas-en-los-ultimos-12-meses-y-diagnosticadas-por-un-medico-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p04-l0-02016-px/resource/5f1dabcb-efcf-4558-a3ab-d5782d821741/format">
+    <rdfs:label>CSV</rdfs:label>
+    <rdf:value>text/csv</rdf:value>
+  </dct:IMT>
+  <dct:IMT rdf:about="https://datos.gob.es/catalogo/ea0010587-problemas-o-enfermedades-cronicas-o-de-larga-evolucion-padecidas-en-los-ultimos-12-meses-y-diagnosticadas-por-un-medico-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p04-l0-02016-px/resource/d81ab49f-db36-4c41-b4d6-8e1bf200f453/format">
+    <rdfs:label>PC-Axis</rdfs:label>
+    <rdf:value>text/pc-axis</rdf:value>
+  </dct:IMT>
+  <dct:IMT rdf:about="https://datos.gob.es/catalogo/ea0010587-problemas-o-enfermedades-cronicas-o-de-larga-evolucion-padecidas-en-los-ultimos-12-meses-y-diagnosticadas-por-un-medico-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p04-l0-02016-px/resource/816a8452-3903-4f37-b581-1c85559571ec/format">
+    <rdf:value>application/json</rdf:value>
+    <rdfs:label>JSON</rdfs:label>
+  </dct:IMT>
+  <dct:IMT rdf:about="https://datos.gob.es/catalogo/ea0010587-problemas-o-enfermedades-cronicas-o-de-larga-evolucion-padecidas-en-los-ultimos-12-meses-y-diagnosticadas-por-un-medico-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p04-l0-02016-px/resource/b01aa0e0-0793-485e-a188-8a0661fffb6a/format">
+    <rdfs:label>XLSX</rdfs:label>
+    <rdf:value>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</rdf:value>
+  </dct:IMT>
+  <dct:IMT rdf:about="https://datos.gob.es/catalogo/ea0010587-problemas-o-enfermedades-cronicas-o-de-larga-evolucion-padecidas-en-los-ultimos-12-meses-y-diagnosticadas-por-un-medico-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p04-l0-02016-px/resource/7f27e0c4-241c-4272-8f0e-fa4fbb9f07b3/format">
+    <rdf:value>text/csv</rdf:value>
+    <rdfs:label>CSV</rdfs:label>
+  </dct:IMT>
+  <dct:IMT rdf:about="https://datos.gob.es/catalogo/ea0010587-problemas-o-enfermedades-cronicas-o-de-larga-evolucion-padecidas-en-los-ultimos-12-meses-y-diagnosticadas-por-un-medico-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p04-l0-02016-px/resource/b50cf0fd-2b4f-424f-b41c-267d326b7b5a/format">
+    <rdfs:label>XLS</rdfs:label>
+    <rdf:value>application/vnd.ms-excel</rdf:value>
+  </dct:IMT>
+  <dct:IMT rdf:about="https://datos.gob.es/catalogo/ea0010587-problemas-o-enfermedades-cronicas-o-de-larga-evolucion-padecidas-en-los-ultimos-12-meses-y-diagnosticadas-por-un-medico-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p04-l0-02016-px/resource/a159cedf-04a8-41e0-b97a-3b34275f9be1/format">
+    <rdfs:label>CSV</rdfs:label>
+    <rdf:value>text/csv</rdf:value>
+  </dct:IMT>
+  <dct:IMT rdf:about="https://datos.gob.es/catalogo/ea0010587-problemas-o-enfermedades-cronicas-o-de-larga-evolucion-padecidas-en-los-ultimos-12-meses-y-diagnosticadas-por-un-medico-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p04-l0-02016-px/resource/9fcc8372-c874-4948-8511-2c62b9fdf840/format">
+    <rdfs:label>HTML</rdfs:label>
+    <rdf:value>text/html</rdf:value>
+  </dct:IMT>
+  <dct:IMT rdf:about="https://datos.gob.es/catalogo/ea0010587-problemas-o-enfermedades-cronicas-o-de-larga-evolucion-padecidas-en-los-ultimos-12-meses-y-diagnosticadas-por-un-medico-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p04-l0-02016-px/resource/35f8db87-2fa1-4111-aeaf-869d362149f0/format">
+    <rdf:value>text/csv</rdf:value>
+    <rdfs:label>CSV</rdfs:label>
+  </dct:IMT>
+  <dct:IMT rdf:about="https://datos.gob.es/catalogo/ea0010587-problemas-o-enfermedades-cronicas-o-de-larga-evolucion-padecidas-en-los-ultimos-12-meses-y-diagnosticadas-por-un-medico-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p04-l0-02016-px/resource/780bd43f-45ae-4906-8e6b-a06157051b6b/format">
+    <rdf:value>text/csv</rdf:value>
+    <rdfs:label>CSV</rdfs:label>
+  </dct:IMT>
+</rdf:RDF>

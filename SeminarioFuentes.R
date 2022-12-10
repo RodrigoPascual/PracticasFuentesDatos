@@ -7,25 +7,43 @@ library(ggplot2)
 library(forcats)
 library(hrbrthemes)
 library(viridis)
+library(rjson)
+library(XML)
 #vamos a hacer un join entre nuestras dos tablas por comunidad autonoma
 #https://thomasadventure.blog/es/posts/r-fusionando-tablas-datos/
 
 
 #carga de tablas con las que haremos el estudio
 
+#Datos importados por CSV
+
 enfermedades <- read_delim(file = "input/enfermedades_cronicas1.csv",delim = ";",show_col_types = FALSE)
 sedentarismo <- read_delim(file = "input/sedentarismo.csv",delim = ";",show_col_types = FALSE)
+
+
+##Datos importados por JSON
+enfermedades_json <- fromJSON(file = "input/enfermedades_cronicas1.json")
+sedentarismo_json <- fromJSON(file = "input/sedentarismo.json")
+
+
+##Datos importados por XML
+enfermedades_xml <- xmlParse(file="input/enfermedades_cronicas1.xml")
+sedentarismo_xml <- xmlParse(file="input/sedentarismo.xml")
+
+
+##
+#sedentarismo <- read_delim(file = "input/",delim = ";",show_col_types = FALSE)
 
 #Paso de enfermedades y sedentarismo a data frame para hacer el join
 enfermedades <- data.frame(enfermedades)
 sedentarismo <-data.frame(sedentarismo)
 
 #Cambiamos la columna de Total de str a numeric
-sedentarismo<- sedentarismo%>%
-  transmute(Sexo, Comunidades.y.Ciudades.Autónomas,Sí.o.no, Total = as.numeric(Total))
+#sedentarismo<- sedentarismo%>%
+#  transmute(Sexo, Comunidades.y.Ciudades.Autónomas,Sí.o.no, Total = as.numeric(Total))
 
-enfermedades<- enfermedades%>%
-  transmute(Sexo, Comunidades.y.Ciudades.Autónomas, Enfermedades, Sí.o.no, Total = as.numeric(Total))
+#enfermedades<- enfermedades%>%
+#  transmute(Sexo, Comunidades.y.Ciudades.Autónomas, Enfermedades, Sí.o.no, Total = as.numeric(Total))
 
 #hacemos un full join con los data frames anteriores a partir de las columnas Sexo, Comunidades.y.Ciudades.Autónomas y Si.o.no
 data <- full_join(x = enfermedades, 
@@ -75,8 +93,9 @@ ggplot(data = data_soloSi, aes(x = Total.x, y = Total.y))+
   labs(x = "Enfermos", y = "Sedentarios")
 
 
+
 # Load the library
-library(leaflet)
+#library(leaflet)
 
 # Note: if you do not already installed it, install it with:
 # install.packages("leaflet")
@@ -93,9 +112,9 @@ m <- leaflet() %>%
 m
 
 enfermedades_cronicas
-data5 <- data.frame(enfermedades_cronicas,sedentarismo)
+data5 <- data.frame(enfermedades,sedentarismo)
 
-ggplot(data = data5, aes(x = enfermedades_cronicas, y = sedentarismo))+
+ggplot(data = data5, aes(x = enfermedades, y = sedentarismo))+
   geom_point(aes(colour = "Comunidades y Ciudades Autónomas"))+
   geom_smooth(colour = "red")+
   labs(x = "Enfermedades", y = "Sendentarismo")
