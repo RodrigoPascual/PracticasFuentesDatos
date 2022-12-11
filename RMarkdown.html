@@ -380,7 +380,18 @@ según de nuevo el sexo y la comunidad autónoma.</p>
 </div>
 <div id="objetivosmax.-3para-cada-objetivo-un-metodo-y-un-resultado" class="section level2">
 <h2>Objetivos(max. 3):para cada objetivo un metodo y un resultado</h2>
-<p>=======</p>
+<ol style="list-style-type: decimal">
+<li><p>Escoger 6 Enfermedades que puedan tener relacion con el
+sedentarismo y ver el índice de estas en cada Comunudad Autónoma, Hemos
+escogido la hemorroides, el ictus, las migrañas, la osteoporosis, la
+tensión alta y la varices en las piernas</p></li>
+<li><p>Ver el índice de sedentarísmo de cada comunidad autónoma en
+tablas por separado para ver cual de ellas lo tiene mas bajo o mas alto
+y poder ver las primeras relaciones entre sedentarísmo y enfermedad
+crónica</p></li>
+<li><p>Ver si realmente estas enfermedades están o no relacionadas con
+el sedentarísmo</p></li>
+</ol>
 </div>
 <div id="métodos" class="section level2">
 <h2>Métodos:</h2>
@@ -448,20 +459,20 @@ sedentarismo &lt;-data.frame(sedentarismo)
 
 #enfermedades&lt;- enfermedades%&gt;%
  # transmute(Sexo, Comunidades.y.Ciudades.Autónomas, Enfermedades, Sí.o.no, Total = as.numeric(Total))</code></pre>
-<p>###hacemos un full join con los data frames anteriores a partir de
-las columnas Sexo, Comunidades.y.Ciudades.Autónomas y Si.o.no</p>
+<p>Hacemos un full join con los data frames anteriores a partir de las
+columnas Sexo, Comunidades.y.Ciudades.Autónomas y Si.o.no</p>
 <pre class="r"><code>data &lt;- full_join(x = enfermedades, 
             y = sedentarismo,
             by = c(&quot;Sexo&quot;, &quot;Comunidades.y.Ciudades.Autónomas&quot; ,&quot;Sí.o.no&quot;))</code></pre>
-<p>####Filtramos la tabla anterior solo por las enfermedades que vamos a
+<p>Filtramos la tabla anterior solo por las enfermedades que vamos a
 estudiar</p>
 <pre class="r"><code>data_menosEnfermedades &lt;- data %&gt;% 
   filter(Enfermedades == &quot;Tensión alta&quot; | Enfermedades == &quot;Varices en las piernas&quot; | Enfermedades == &quot;Migraña o dolor de cabeza frecuente&quot; | Enfermedades == &quot;Ictus (embolia, infarto cerebral, hemorragia cerebral)&quot; | Enfermedades ==&quot;Hemorroides&quot; | Enfermedades == &quot;Osteoporosis&quot;)</code></pre>
-<p>####Tabla de solo las personas que padecen la enfermedad</p>
+<p>Tabla de solo las personas que padecen la enfermedad</p>
 <pre class="r"><code>data_soloSi &lt;- data_menosEnfermedades %&gt;% filter(Sí.o.no == &quot;Sí&quot;)</code></pre>
-<p>###gráficas por comunidad, sexo y enfermedad padecida ###Indica en
-cada comunidad autónoma que enfermedad es mas padecida según cada
-sexo</p>
+<p>========== GRAFIICA 1 ========== gráficas por comunidad, sexo y
+enfermedad padecida Indica en cada comunidad autónoma que enfermedad es
+mas padecida según cada sexo</p>
 <pre class="r"><code>ggplot(data = data_soloSi, aes(x = Total.x, y = Enfermedades)) +
   geom_point(aes(colour = factor(Sexo))) +
   facet_wrap(~ Comunidades.y.Ciudades.Autónomas)</code></pre>

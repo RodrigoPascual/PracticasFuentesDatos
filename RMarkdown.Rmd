@@ -20,7 +20,13 @@ Vamos ha relacionar el grado de implicación del sedentarismo en una serie de en
 
 ## Objetivos(max. 3):para cada objetivo un metodo y un resultado
 
-=======
+1) Escoger 6 Enfermedades que puedan tener relacion con el sedentarismo y ver el índice de estas en cada Comunudad Autónoma, Hemos escogido la hemorroides, el ictus, las
+migrañas, la osteoporosis, la tensión alta y la varices en las piernas
+
+2) Ver el índice de sedentarísmo de cada comunidad autónoma en tablas por separado para ver cual de ellas lo tiene mas bajo o mas alto y poder ver las primeras relaciones entre sedentarísmo y enfermedad crónica
+
+3) Ver si realmente estas enfermedades están o no relacionadas con el sedentarísmo
+
 
 ## Métodos:
 ### Paquetes usadas:
@@ -62,7 +68,7 @@ enfermedades_xml <- xmlParse(file="input/enfermedades_cronicas1.xml")
 sedentarismo_xml <- xmlParse(file="input/sedentarismo.xml")
 ```
 
-PIMERA GRAFICA
+##PIMERA GRAFICA
 
 gráficas por comunidad, sexo y enfermedad padecida
 Indica en cada comunidad autónoma que enfermedad es mas padecida según cada sexo
@@ -71,25 +77,25 @@ Indica en cada comunidad autónoma que enfermedad es mas padecida según cada se
 ```{r}
 #Paso de enfermedades y sedentarismo a data frame para hacer el join
 enfermedades <- data.frame(enfermedades)
-sedentarismo <-data.frame(sedentarismo)
+sedentarismo <- data.frame(sedentarismo)
 
 #Cambiamos la columna de Total de str a numeric
 #sedentarismo<- sedentarismo%>%
 #  transmute(Sexo, Comunidades.y.Ciudades.Autónomas,Sí.o.no, Total = as.numeric(Total))
 
 #enfermedades<- enfermedades%>%
- # transmute(Sexo, Comunidades.y.Ciudades.Autónomas, Enfermedades, Sí.o.no, Total = as.numeric(Total))
+# transmute(Sexo, Comunidades.y.Ciudades.Autónomas, Enfermedades, Sí.o.no, Total = as.numeric(Total))
 ```
 
 
-###hacemos un full join con los data frames anteriores a partir de las columnas Sexo, Comunidades.y.Ciudades.Autónomas y Si.o.no
+1.Hacemos un full join con los data frames anteriores a partir de las columnas Sexo, Comunidades.y.Ciudades.Autónomas y Si.o.no
 ```{r}
 data <- full_join(x = enfermedades, 
             y = sedentarismo,
             by = c("Sexo", "Comunidades.y.Ciudades.Autónomas" ,"Sí.o.no"))
 
 ```
-####Filtramos la tabla anterior solo por las enfermedades que vamos a estudiar
+2.Filtramos la tabla anterior solo por las enfermedades que vamos a estudiar
 
 ```{r}
 data_menosEnfermedades <- data %>% 
@@ -97,19 +103,26 @@ data_menosEnfermedades <- data %>%
 
 ```
 
-####Tabla de solo las personas que padecen la enfermedad
+3.Tabla de solo las personas que padecen la enfermedad
 ```{r}
 data_soloSi <- data_menosEnfermedades %>% filter(Sí.o.no == "Sí")
 ```
 
-###gráficas por comunidad, sexo y enfermedad padecida
-###Indica en cada comunidad autónoma que enfermedad es mas padecida según cada sexo
+
+gráficas por comunidad, sexo y enfermedad padecida
+Indica en cada comunidad autónoma que enfermedad es mas padecida según cada sexo
 
 ```{r}
 ggplot(data = data_soloSi, aes(x = Total.x, y = Enfermedades)) +
   geom_point(aes(colour = factor(Sexo))) +
   facet_wrap(~ Comunidades.y.Ciudades.Autónomas)
 ```
+
+###Anlisis del resultado:
+Los puntos verdes de la tabla pertenecen a los hombres y los azules pertenecen a las mujeres, esto podemoos ver que es realmente asi por ejemplo en el caso de la ostoporosis, enfermedad mucho mas presente en mujeres que en hombres. esto se interpreta de forma que los puntos mas cercanos es que tiene un menor índice de casos por habitante, un buen ejemplo para visualizar esto es fijarnos en los ictus, que se podicen con mucha menos frecuencia que por ejemplo las varices. Respecto a las diferencias en cuanto a las comunudades autónomas no sos muy notorias.
+
+
+##SEGUNDA GRAFICA
 
 Filtramos la tabla para que no salga al representar la gráfica el total
 
