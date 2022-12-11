@@ -68,7 +68,7 @@ enfermedades_xml <- xmlParse(file="input/enfermedades_cronicas1.xml")
 sedentarismo_xml <- xmlParse(file="input/sedentarismo.xml")
 ```
 
-##PIMERA GRAFICA
+## Primera grafica
 
 gráficas por comunidad, sexo y enfermedad padecida
 Indica en cada comunidad autónoma que enfermedad es mas padecida según cada sexo
@@ -118,11 +118,11 @@ ggplot(data = data_soloSi, aes(x = Total.x, y = Enfermedades)) +
   facet_wrap(~ Comunidades.y.Ciudades.Autónomas)
 ```
 
-###Anlisis del resultado:
+### Anlisis del resultado:
 Los puntos verdes de la tabla pertenecen a los hombres y los azules pertenecen a las mujeres, esto podemoos ver que es realmente asi por ejemplo en el caso de la ostoporosis, enfermedad mucho mas presente en mujeres que en hombres. esto se interpreta de forma que los puntos mas cercanos es que tiene un menor índice de casos por habitante, un buen ejemplo para visualizar esto es fijarnos en los ictus, que se podicen con mucha menos frecuencia que por ejemplo las varices. Respecto a las diferencias en cuanto a las comunudades autónomas no sos muy notorias.
 
 
-##SEGUNDA GRAFICA
+## Segunda gráfica
 
 Filtramos la tabla para que no salga al representar la gráfica el total
 
@@ -139,7 +139,11 @@ ggplot(data = data_sedentarismo, aes(x = Total.y, y = Sí.o.no)) +
   geom_point(aes(colour = factor(Sexo))) +
   facet_wrap(~ Comunidades.y.Ciudades.Autónomas)
 ```
+### Anlisis del resultado:
+En estas tablas se muestran en comparativa las personas que sí son sefentarias respecto a las que no lo son, por cada comuniddad autónoma. Además se diferencian por coloreas los hombres de las mujeres teniendo la media de los dos en naranja. Comarando los puntos naranjas de cada comunidad autónoma y en función de que tan lejos esta el si, las personas serán mas o menos sedentarias en esa comunidad autónoma. Para ejemplificar esto podemos fijarnos en Asturias donde no ha apenas personas sedentarias y además el ínice de hombres y de mujeres es prácticaemnte identico, esta tabla choca respecto a la ciudad autónoma de Ceuta que es la única en la que superan los casos de personas sedentarias respecto de las que no lo son, ademas la diferencia entre hombres y mujeres es muy grande.
 
+
+## Tercera gráfica
 
 grafica de dispersión:
 Sedentarismo en funcion de la enfermedad
