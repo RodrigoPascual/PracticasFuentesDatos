@@ -139,6 +139,7 @@ ggplot(data = data_sedentarismo, aes(x = Total.y, y = Sí.o.no)) +
   geom_point(aes(colour = factor(Sexo))) +
   facet_wrap(~ Comunidades.y.Ciudades.Autónomas)
 ```
+
 ### Anlisis del resultado:
 En estas tablas se muestran en comparativa las personas que sí son sefentarias respecto a las que no lo son, por cada comuniddad autónoma. Además se diferencian por coloreas los hombres de las mujeres teniendo la media de los dos en naranja. Comarando los puntos naranjas de cada comunidad autónoma y en función de que tan lejos esta el si, las personas serán mas o menos sedentarias en esa comunidad autónoma. Para ejemplificar esto podemos fijarnos en Asturias donde no ha apenas personas sedentarias y además el ínice de hombres y de mujeres es prácticaemnte identico, esta tabla choca respecto a la ciudad autónoma de Ceuta que es la única en la que superan los casos de personas sedentarias respecto de las que no lo son, ademas la diferencia entre hombres y mujeres es muy grande.
 
