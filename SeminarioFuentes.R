@@ -90,8 +90,7 @@ data_Sexo <- data_soloSi %>% filter(Sexo == "Hombres" | Sexo == "Mujeres")
 #Sedentarismo en funcion de la enfermedad
 ggplot(data_Sexo, aes(Total.x, Total.y))+  
   geom_point(aes(colour = Enfermedades))+
-  #facet_wrap(Sexo~ Comunidades.y.Ciudades.Autónomas)+
-  geom_smooth()+  
+  geom_smooth(colour = "red", linewidth = 1.55)+  
   labs(x = "Enfermos", y = "Sedentarios")
 
 
