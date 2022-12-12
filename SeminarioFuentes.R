@@ -88,12 +88,62 @@ ggplot(data = data_sedentarismo, aes(x = Total.y, y = Sí.o.no)) +
 #grafica de dispersión:
 data_Sexo <- data_soloSi %>% filter(Sexo == "Hombres" | Sexo == "Mujeres")
 #Sedentarismo en funcion de la enfermedad
+<<<<<<< HEAD
 ggplot(data_Sexo, aes(Total.x, Total.y))+  
   geom_point(aes(colour = Enfermedades))+
   geom_smooth(colour = "red", linewidth = 1.55)+  
+=======
+
+
+ggplot(data = data_soloSi, aes(x = Total.x, y = Total.y))+  
+  geom_point(aes(colour = Enfermedades))+  geom_smooth(colour = "red", linewidth = 1.75)+  
+>>>>>>> 774163ed40892fc339406a0d30477db79d90d59a
   labs(x = "Enfermos", y = "Sedentarios")
 
 
+#Vamos a modificar los datos de la columna "Total.x ya que al esatr esccritos con coma los decimales estos aparecen en forma de character,
+#si los intentasmo cabiar a numeroco directamente, nos aparecerá un error de coherción. PAra solucionar este error itroduciremos la siguiente linea:
+db <- gsub(",",".",data_soloSi$Total.x)
+data_soloSi$Total.x = as.numeric(db)
+
+data_soloSi$Total.x
+Total.x
+Total.y
+
+ggplot(data = data_soloSi, aes(x = Total.x, y = Total.y, colour = Enfermedades)) +
+  geom_point(aes(colour = Enfermedades)) +
+  geom_smooth(se = FALSE, method = lm)+
+  geom_smooth(colour = "red", linewidth = 1.75)+
+  labs(x = "Enfermos", y = "Sedentarios")
+
+ggplot(data = data_soloSi, aes(x = Total.x, y = Total.y))+  
+  geom_point(aes(colour = Comunidades.y.Ciudades.Autónomas))+  
+  geom_smooth(span = 0.8) +
+  facet_wrap(~ Enfermedades)+  
+  labs(x = "Enfermos", y = "Sedentarios")
+
+
+
+
+
+sedentarismo<- sedentarismo%>%
+  transmute(Sexo, Comunidades.y.Ciudades.Autónomas,Sí.o.no, Total = as.numeric(Total))
+
+enfermedades<- enfermedades%>%
+  transmute(Sexo, Comunidades.y.Ciudades.Autónomas, Enfermedades, Sí.o.no, Total = as.numeric(Total))
+
+data_menosEnfermedades <- data %>% 
+  filter(Enfermedades == "Tensión alta" | Enfermedades == "Varices en las piernas" | Enfermedades == "Migraña o dolor de cabeza frecuente" | Enfermedades == "Ictus (embolia, infarto cerebral, hemorragia cerebral)" | Enfermedades =="Hemorroides" | Enfermedades == "Osteoporosis")
+
+data_sedentarismo <- data_menosEnfermedades %>% filter(Sí.o.no == "Sí" | Sí.o.no == "No")
+
+
+ggplot(data = data_sedentarismo, aes(Total.x, Total.y)) +
+  geom_point(aes(colour = Enfermedades))+
+  geom_smooth(se = FALSE, method = lm)+
+  labs(x = "Enfermos", y = "Sedentarios")+
+  facet_wrap(~ Comunidades.y.Ciudades.Autónomas)
+  
 
 # Load the library
 #library(leaflet)

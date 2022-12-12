@@ -1,5 +1,6 @@
 ---
-title: "RMarkdown"
+title: "Implicacion del sedentarísmo en la enfermedades crónicas"
+author: "Samuel Gonzalez, Rodrigo Pascual y Walid Sabhi"
 output:
   html_document: default
   word_document: default
@@ -10,12 +11,13 @@ date: "2022-10-24"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# SEMINARIO FUENTES DE BASES DE DATOS
-# Relacion del sedentarismo con enfermedades
+## RMardown
+# SEMINARIO FUENTES DE DATOS BIOMÉDICOS Y WEB SEMÁNTICA
+# Relacion del sedentarismo con enfermedades seleccionadas
 
 ## Introduccion
 
-Vamos ha relacionar el grado de implicación del sedentarismo en una serie de enfermedades crónicas, para ello hemos escojido dos informes del centro Nacional de Estadístaca español, la primera tabla "enfermedades_cronicas" contendrá una una lista con la tasa de enfermededes crónicas según el sexo y la comunidad autónoma, como hay muchas enfermedades seleccionaremos unas pocas que sean de interés para nuestro estudio y trataremos de encontar si hay relación o no con nuestra segunda tabla "sedentarismo" que nos aportará el índice de este según de nuevo el sexo y la comunidad autónoma.
+Vamos a relacionar el grado de implicación del sedentarismo en una serie de enfermedades crónicas, para ello hemos escojido dos informes del centro Nacional de Estadístaca español, la primera tabla "enfermedades_cronicas" contendrá una una lista con la tasa de enfermededes crónicas según el sexo y la comunidad autónoma, como hay muchas enfermedades seleccionaremos unas pocas que sean de interés para nuestro estudio y trataremos de encontar si hay relación o no con nuestra segunda tabla "sedentarismo" que nos aportará el índice de este según de nuevo el sexo y la comunidad autónoma.
 
 
 ## Objetivos(max. 3):para cada objetivo un metodo y un resultado
@@ -29,7 +31,7 @@ migrañas, la osteoporosis, la tensión alta y la varices en las piernas
 
 
 ## Métodos:
-### Paquetes usadas:
+### Paquetes usados:
 ```{r}
 library(readr)
 library(ggplot2)
@@ -68,11 +70,9 @@ enfermedades_xml <- xmlParse(file="input/enfermedades_cronicas1.xml")
 sedentarismo_xml <- xmlParse(file="input/sedentarismo.xml")
 ```
 
-##PIMERA GRAFICA
+## Primera grafica (objetivo 1)
 
-gráficas por comunidad, sexo y enfermedad padecida
-Indica en cada comunidad autónoma que enfermedad es mas padecida según cada sexo
-
+Pasamos de enfermedades y sedentarismo a data frame para hacer el join
 
 ```{r}
 #Paso de enfermedades y sedentarismo a data frame para hacer el join
@@ -113,16 +113,19 @@ gráficas por comunidad, sexo y enfermedad padecida
 Indica en cada comunidad autónoma que enfermedad es mas padecida según cada sexo
 
 ```{r}
+db <- gsub(",",".",data_soloSi$Total.x)
+data_soloSi$Total.x = as.numeric(db)
+
 ggplot(data = data_soloSi, aes(x = Total.x, y = Enfermedades)) +
   geom_point(aes(colour = factor(Sexo))) +
   facet_wrap(~ Comunidades.y.Ciudades.Autónomas)
 ```
 
-###Anlisis del resultado:
-Los puntos verdes de la tabla pertenecen a los hombres y los azules pertenecen a las mujeres, esto podemoos ver que es realmente asi por ejemplo en el caso de la ostoporosis, enfermedad mucho mas presente en mujeres que en hombres. esto se interpreta de forma que los puntos mas cercanos es que tiene un menor índice de casos por habitante, un buen ejemplo para visualizar esto es fijarnos en los ictus, que se podicen con mucha menos frecuencia que por ejemplo las varices. Respecto a las diferencias en cuanto a las comunudades autónomas no sos muy notorias.
+### Anlisis del resultado:
+Los puntos verdes de la tabla pertenecen a los hombres y los azules pertenecen a las mujeres, esto podemos ver que es realmente asi por ejemplo en el caso de la osteoporosis, enfermedad mucho más presente en mujeres que en hombres. Esto se interpreta de forma que los puntos mas cercanos es que tiene un menor índice de casos por habitante, un buen ejemplo para visualizar esto es fijarnos en los ictus, que se podicen con mucha menos frecuencia que por ejemplo las varices. Respecto a las diferencias en cuanto a las comunudades autónomas no sos muy notorias.
 
 
-##SEGUNDA GRAFICA
+## Segunda gráfica (objetivo 2)
 
 Filtramos la tabla para que no salga al representar la gráfica el total
 
@@ -140,19 +143,51 @@ ggplot(data = data_sedentarismo, aes(x = Total.y, y = Sí.o.no)) +
   facet_wrap(~ Comunidades.y.Ciudades.Autónomas)
 ```
 
+### Anlisis del resultado:
+En estas tablas se muestran en comparativa las personas que sí son sefentarias respecto a las que no lo son, por cada comunidad autónoma. Además se diferencian por colores los hombres de las mujeres teniendo la media de los dos en naranja. Comarando los puntos naranjas de cada comunidad autónoma y en función de que tan lejos esta el si, las personas serán mas o menos sedentarias en esa comunidad autónoma. Para ejemplificar esto podemos fijarnos en Asturias donde no ha apenas personas sedentarias y además el ínice de hombres y de mujeres es prácticaemnte identico, esta tabla choca respecto a la ciudad autónoma de Ceuta que es la única en la que superan los casos de personas sedentarias respecto de las que no lo son, ademas la diferencia entre hombres y mujeres es muy grande.
+
+
+## Tercera y cuarta gráfica (objetivo 3)
 
 grafica de dispersión:
 Sedentarismo en funcion de la enfermedad
 
+1º Vamos a modificar los datos de la columna "Total.x" ya que al estar escritos con coma los decimales estos aparecen en forma de character, si los intentamos cabiar a numerico directamente, nos aparecerá un error de coherción. Para solucionar este error itroduciremos la siguiente linea:
+
 ```{r}
-ggplot(data = data_soloSi, aes(x = Total.x, y = Total.y))+  
-  geom_point(aes(colour = Enfermedades))+  geom_smooth(colour = "red", linewidth = 1.75)+  
-  labs(x = "Enfermos", y = "Sedentarios")
+db <- gsub(",",".",data_soloSi$Total.x)
+data_soloSi$Total.x = as.numeric(db)
 ```
 
 
+Grafica con todas las enfemedades y con una linea de tendencia General (no muy reperesentativa) además de una recta por cada enfermedad
+
+```{r}
+ggplot(data = data_soloSi, aes(x = Total.x, y = Total.y, colour = Enfermedades)) +
+  geom_point(aes(colour = Enfermedades)) +
+  geom_smooth(se = FALSE, method = lm)+
+  geom_smooth(colour = "red", linewidth = 1.75)+
+  labs(x = "Enfermos", y = "Sedentarios")
+```
+
+Representación de las seis enfermedades seleccionadas, cada una de ellas con su linea de tendencia, podemos ver alguna relacion entre cierta enfermedad y el sedentarismo...
+
+```{r}
+ggplot(data = data_soloSi, aes(x = Total.x, y = Total.y))+  
+  geom_point(aes(colour = Comunidades.y.Ciudades.Autónomas))+  
+  geom_smooth(span = 0.8) +
+  facet_wrap(~ Enfermedades)+  
+  labs(x = "Enfermos", y = "Sedentarios")
+```
+
+### Anlisis del resultado y Conclusión:
+No vemos una clara relacion entre el sedentarismo y las enfermedades seleccionadas, la única enfermedad en la podemos ver una clara tendencia al alza es en los los casos de ictus derebral. Para ejemplificar de nuevo nos fijaremos en la ciudad autónoma de Ceuta, si pensamos q un alto índice dde sedentarismo afecta de manera negativa este punto de Ceuta representado con un color azúl a parte de estar muy arriba por su alto índice de sedentarismo, además debería de estar muy a la derecha significando asi que tambén hay muchos casos de enfermedad, realmente nos fijamos y no es del todo cierto.
 
 
+## REFERENCIAS
 
+https://datos.gob.es/es/catalogo/ea0010587-problemas-o-enfermedades-cronicas-o-de-larga-evolucion-padecidas-en-los-ultimos-12-meses-y-diagnosticadas-por-un-medico-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p04-l0-02016-px
+https://datos.gob.es/es/catalogo/ea0010587-sedentarismo-segun-sexo-y-comunidad-autonoma-poblacion-de-15-y-mas-anos-identificador-api-t15-p420-a2019-p06-l0-04009-px
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+## FIN
+
